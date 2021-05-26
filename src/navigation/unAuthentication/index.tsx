@@ -6,14 +6,14 @@ import { LoginScreen } from '@screens/unAuthentication/loginScreen'
 import { ColorsCustom } from '@themes/color'
 import { View } from 'native-base'
 
-const Stack = createStackNavigator<RootStackParamList>()
+const Stack = createStackNavigator<RootStackParamList>();
 
 const UnAuthenticationTab: React.FC = props => {
 
     const options: StackNavigationOptions = {
         headerShown: false,
         cardOverlayEnabled: true
-    }
+    };
 
     return (
         <View style={{ flex: 1, backgroundColor: ColorsCustom.white }}>
@@ -25,6 +25,6 @@ const UnAuthenticationTab: React.FC = props => {
                 />
             </Stack.Navigator>
         </View>)
-}
+};
 
-export const UnAuthentication = memo(UnAuthenticationTab, isEqual)
+export const UnAuthentication = memo(UnAuthenticationTab, isEqual);
