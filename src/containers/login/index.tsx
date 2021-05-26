@@ -1,15 +1,15 @@
 import React, {memo, useEffect} from 'react'
 import {ActivityIndicator, Platform, Image} from 'react-native'
 import {useTheme} from '@emotion/react'
-import {useAppTheme} from '@src/themes'
 import {ThemeDescription, ThemeToggle, Title} from './styles'
 import isEqual from "react-fast-compare";
 import {useLogin} from "@lib/logic/auth/useLogin";
 import {Button, Form, Input, Item, View, Text} from "native-base"
-import {scale} from "@src/common";
-import {Container} from "@src/components";
 import {images} from "@assets/image";
 import {useTranslation} from "react-i18next";
+import {useAppTheme} from "@themes/index";
+import Container from "@components/container";
+import {scale} from "@common/scale";
 
 const LoginContainer = ({}) => {
     const theme = useTheme();

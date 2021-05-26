@@ -21,5 +21,24 @@
     ],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "alias": {
+          "@utils": "./src/lib/utils",
+          "@screens": "./src/screens",
+          "@common": "./src/common",
+          "@store": "./src/store",
+          "@navigation": "./src/navigation",
+          "@components": "./src/components",
+          "@lib": "./src/lib",
+          "@assets": "./src/assets",
+          "@themes": "./src/themes",
+          "@containers": "./src/containers",
+          "@models": "./src/models"
+        }
+      }
+    }
   }
 }

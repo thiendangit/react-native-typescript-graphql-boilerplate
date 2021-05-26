@@ -1,9 +1,9 @@
 import {applyMiddleware, createStore, compose} from "redux";
-import {allReducer} from "@src/store/allReducers";
 import thunk from "redux-thunk";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import {persistStore, persistReducer} from 'redux-persist';
 import logger from 'redux-logger';
+import {allReducer} from "@store/allReducers";
 
 const devMode = __DEV__;
 const middleware: any[] = [];

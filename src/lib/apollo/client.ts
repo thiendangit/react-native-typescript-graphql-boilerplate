@@ -1,6 +1,6 @@
 import {ApolloClient, InMemoryCache, createHttpLink} from '@apollo/client';
 import {setContext} from '@apollo/client/link/context';
-import {loadCustomerToken} from '../utils/storage';
+import {loadCustomerToken} from '@utils/storage/storage';
 import {IS_LOGGED_IN} from './queries/isLoggedIn';
 // import possibleTypes from './data/possibleTypes.json';
 import {API_URL} from '@env'

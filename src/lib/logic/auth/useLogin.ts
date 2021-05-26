@@ -6,8 +6,8 @@ import {
 } from '@lib/apollo/mutations/createCustomerToken';
 import {IS_LOGGED_IN} from '@lib/apollo/queries/isLoggedIn';
 import {FormResult, useForm} from "@lib/logic/app/useForm";
-import {actionsApp} from "@src/store/app_reducer";
-import {dispatch} from "@src/common";
+import {dispatch} from "@common/redux";
+import {actionsApp} from "@store/app_reducer";
 
 export interface LoginForm {
     email: string;

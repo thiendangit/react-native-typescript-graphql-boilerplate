@@ -1,6 +1,6 @@
 import React, {memo} from 'react'
-import {Launches} from "@src/containers";
 import isEqual from "react-fast-compare";
+import {Launches} from "@containers/launches";
 
 const LaunchesComponent = () => {
     return <Launches/>

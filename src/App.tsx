@@ -6,11 +6,11 @@ import {getApolloClient} from "@lib/apollo/client";
 import {ApolloClient, ApolloProvider} from "@apollo/client";
 import {Spinner} from "native-base";
 import {Provider} from "react-redux";
-import storeConfig from "@src/store/store";
 import {PersistGate} from "redux-persist/integration/react";
 import {I18nextProvider} from "react-i18next";
 import I18n from '@utils/i18n/i18n';
 import {Root} from "native-base";
+import storeConfig from "@store/store";
 
 const App: React.FC = () => {
 

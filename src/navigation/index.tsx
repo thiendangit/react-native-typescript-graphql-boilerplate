@@ -1,14 +1,13 @@
 import React, {} from 'react'
 import RNBootSplash from 'react-native-bootsplash'
 import {NavigationContainer} from '@react-navigation/native'
-
-import {useAppTheme} from '@src/themes'
 import dark from '@themes/dark'
 import light from '@themes/light'
-
-import {navigationRef} from "@src/navigation/navigationService";
-import {RootNavigation} from "@src/navigation/RootNavigator";
-import {AppDispatch, useSelector} from "@src/common";
+import {useAppTheme} from "@themes/index";
+import {useSelector} from "@common/hooks";
+import {navigationRef} from "@navigation/navigationService";
+import {RootNavigation} from "@navigation/RootNavigator";
+import {AppDispatch} from "@common/redux";
 
 const AppNavigation: React.FC = () => {
     const appTheme = useAppTheme();

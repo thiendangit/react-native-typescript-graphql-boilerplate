@@ -3,7 +3,7 @@ import {View} from "native-base";
 import {ColorsCustom} from "@themes/color";
 import isEqual from "react-fast-compare";
 import {APP_SCREEN, RootStackParamList} from "@navigation/screenTypes";
-import {LoginScreen} from "@src/screens";
+import {LoginScreen} from "@screens/unAuthentication/loginScreen";
 import {createStackNavigator, StackNavigationOptions} from "@react-navigation/stack";
 
 const Stack = createStackNavigator<RootStackParamList>();

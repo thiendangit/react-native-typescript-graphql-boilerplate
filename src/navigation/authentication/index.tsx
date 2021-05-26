@@ -4,7 +4,7 @@ import {ColorsCustom} from "@themes/color";
 import isEqual from "react-fast-compare";
 import {APP_SCREEN, RootStackParamList} from "@navigation/screenTypes";
 import {createStackNavigator, StackNavigationOptions} from "@react-navigation/stack";
-import {LaunchesScreen} from "@src/screens";
+import {LaunchesScreen} from "@screens/authentication/launchesScreen";
 
 const Stack = createStackNavigator<RootStackParamList>();
 

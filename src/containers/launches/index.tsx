@@ -7,10 +7,10 @@ import styled from '@emotion/native'
 import Container from '@components/container'
 import isEqual from "react-fast-compare";
 import {Button, Text} from "native-base";
-import {dispatch, scale} from "@src/common";
-import {actionsApp} from "@src/store/app_reducer";
 import {useTranslation} from "react-i18next";
-import {Title} from "@containers/login/styles";
+import {dispatch} from "@common/redux";
+import {actionsApp} from "@store/app_reducer";
+import {scale} from "@common/scale";
 
 const FlatListContainer = styled(Container)({
     alignItems: 'stretch',

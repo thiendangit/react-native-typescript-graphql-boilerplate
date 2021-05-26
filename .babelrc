@@ -11,12 +11,12 @@
       "module-resolver",
       {
         "root": [
-          "./"
+          "."
         ],
         "alias": {
-          "@src": "./src",
           "@utils": "./src/lib/utils",
           "@screens": "./src/screens",
+          "@store": "./src/store",
           "@common": "./src/common",
           "@navigation": "./src/navigation",
           "@components": "./src/components",

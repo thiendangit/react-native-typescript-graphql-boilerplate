@@ -1,6 +1,5 @@
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
-import {SLICE_NAME} from "@src/models";
-
+import {SLICE_NAME} from "@models/generalTypes";
 
 interface AppState {
     token: string,
