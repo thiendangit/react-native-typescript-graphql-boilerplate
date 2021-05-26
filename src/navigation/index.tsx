@@ -1,4 +1,4 @@
-import React, {} from 'react'
+import React from 'react'
 import RNBootSplash from 'react-native-bootsplash'
 import { useSelector } from '@common/hooks'
 import { AppDispatch } from '@common/redux'
@@ -10,21 +10,22 @@ import { useAppTheme } from '@themes/index'
 import light from '@themes/light'
 
 const AppNavigation: React.FC = () => {
-    const appTheme = useAppTheme()
-    const { token } = useSelector(x => x.app)
+  const appTheme = useAppTheme()
+  const { token } = useSelector((x) => x.app)
 
-    return (
-        <NavigationContainer
-            ref={navigationRef}
-            onReady={() => RNBootSplash.hide({ fade: true })}
-            theme={
-                appTheme.mode === 'dark'
-                    ? dark.theme.reactNavigation
-                    : light.theme.reactNavigation
-            }>
-            <RootNavigation token={token}/>
-            <AppDispatch/>
-        </NavigationContainer>)
+  return (
+    <NavigationContainer
+      ref={navigationRef}
+      onReady={() => RNBootSplash.hide({ fade: true })}
+      theme={
+        appTheme.mode === 'dark'
+          ? dark.theme.reactNavigation
+          : light.theme.reactNavigation
+      }>
+      <RootNavigation token={token} />
+      <AppDispatch />
+    </NavigationContainer>
+  )
 }
 
 export default AppNavigation

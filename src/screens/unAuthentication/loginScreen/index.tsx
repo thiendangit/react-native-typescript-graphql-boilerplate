@@ -6,8 +6,10 @@ import { StackScreenProps } from '@react-navigation/stack'
 
 type LoginScreenProps = StackScreenProps<RootStackParamList, APP_SCREEN.LOGIN>
 
-const LoginComponent: React.FC<LoginScreenProps> = ({ navigation }: LoginScreenProps) => {
-    return <Login/>
+const LoginComponent: React.FC<LoginScreenProps> = ({
+  navigation,
+}: LoginScreenProps) => {
+  return <Login />
 }
 
 export const LoginScreen = memo(LoginComponent, isEqual)

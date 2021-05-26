@@ -1,5 +1,3 @@
-export const icons = {
+export const icons = {}
 
-}
-
-export type IconTypes = keyof typeof icons;
+export type IconTypes = keyof typeof icons

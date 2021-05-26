@@ -18,6 +18,6 @@ const light = {
     borderAlt: '#bdbdbd',
     text: '#171717',
   },
-}
+};
 
 export default light

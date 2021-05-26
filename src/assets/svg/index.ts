@@ -1,4 +1,3 @@
-export const svg = {
-}
+export const svg = {}
 
-export type SvgTypes = keyof typeof svg;
+export type SvgTypes = keyof typeof svg

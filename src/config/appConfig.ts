@@ -8,18 +8,19 @@ const TIME_OUT = 10000
 const STATUS_TIME_OUT = 'ECONNABORTED'
 const CODE_TIME_OUT = 408
 const APP_MODE = {
-    DEV: 'dev',
-    PROD: 'prod',
-    STAGING: 'staging',
+  DEV: 'dev',
+  PROD: 'prod',
+  STAGING: 'staging',
 }
 
 export {
-    APP_MODE,
-    appName,
-    CODE_DEFAULT,
-    CODE_SUCCESS,
-    CODE_TIME_OUT,
-    ERROR_NETWORK_CODE,
-    RESULT_CODE_PUSH_OUT,
-    STATUS_TIME_OUT,
-    TIME_OUT }
+  APP_MODE,
+  appName,
+  CODE_DEFAULT,
+  CODE_SUCCESS,
+  CODE_TIME_OUT,
+  ERROR_NETWORK_CODE,
+  RESULT_CODE_PUSH_OUT,
+  STATUS_TIME_OUT,
+  TIME_OUT,
+}

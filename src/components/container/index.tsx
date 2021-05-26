@@ -1,6 +1,6 @@
 import styled from '@emotion/native'
 
-const Container = styled.SafeAreaView(props => ({
+const Container = styled.SafeAreaView((props) => ({
   flex: 1,
   backgroundColor: props.theme.background,
   alignItems: 'center',

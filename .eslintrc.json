@@ -3,7 +3,8 @@
   "extends": "@react-native-community",
   "parser": "@typescript-eslint/parser",
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "react-hooks"
   ],
   "settings": {
     "import/resolver": {

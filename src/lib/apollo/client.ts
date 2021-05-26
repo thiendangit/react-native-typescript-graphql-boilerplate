@@ -1,17 +1,16 @@
-import { ApolloClient, createHttpLink,InMemoryCache } from '@apollo/client'
-import { setContext } from '@apollo/client/link/context'
-// import possibleTypes from './data/possibleTypes.json';
-import { API_URL } from '@env'
-import { loadCustomerToken } from '@utils/storage/storage'
+import {ApolloClient, createHttpLink, InMemoryCache} from '@apollo/client'
+import {setContext} from '@apollo/client/link/context'
+import {API_URL} from '@env'
+import {loadCustomerToken} from '@utils/storage/storage'
 
-import { IS_LOGGED_IN } from './queries/isLoggedIn'
+import {IS_LOGGED_IN} from './queries/isLoggedIn'
 
-let _client: ApolloClient<any>
+let _client: ApolloClient<any>;
 
 export async function getApolloClient(): Promise<ApolloClient<any>> {
-    if (_client)
+    if (_client) {
         return _client
-
+    }
 
     const cache = new InMemoryCache({
         // possibleTypes,
@@ -21,15 +20,16 @@ export async function getApolloClient(): Promise<ApolloClient<any>> {
                     products: {
                         // Cache separate results based on
                         // any of this field's arguments.
-                        keyArgs: ['search', 'filter'],
+                        // keyArgs: ['search', 'filter'],
                         // Concatenate the incoming list items with
                         // the existing list items.
-                        merge(existing, incoming, { args: { currentPage } }: any) {
-                            if (currentPage === 1)
+                        merge(existing, incoming, {args: {currentPage}}: any) {
+                            if (currentPage === 1) {
                                 return incoming
+                            }
 
-                            const _existing = existing ?? { items: [] }
-                            const _incoming = incoming ?? { items: [] }
+                            const _existing = existing ?? {items: []};
+                            const _incoming = incoming ?? {items: []};
 
                             return {
                                 ..._existing,
@@ -41,26 +41,26 @@ export async function getApolloClient(): Promise<ApolloClient<any>> {
                 },
             },
         },
-    })
+    });
 
-    const customerToken = await loadCustomerToken()
+    const customerToken = await loadCustomerToken();
 
-    if (customerToken !== null)
+    if (customerToken !== null) {
         cache.writeQuery({
             query: IS_LOGGED_IN,
             data: {
                 isLoggedIn: true,
             },
-        })
-
+        });
+    }
 
     const httpLink = createHttpLink({
         uri: `${API_URL}/graphql`,
-    })
+    });
 
-    const authLink = setContext(async (_, { headers }) => {
+    const authLink = setContext(async (_, {headers}) => {
         // get the authentication token from local storage if it exists
-        const token = await loadCustomerToken()
+        const token = await loadCustomerToken();
 
         // return the headers to the context so httpLink can read them
         return {
@@ -69,14 +69,14 @@ export async function getApolloClient(): Promise<ApolloClient<any>> {
                 authorization: token !== null ? `Bearer ${token}` : '',
             },
         }
-    })
+    });
 
     const client = new ApolloClient({
         link: authLink.concat(httpLink),
         cache,
-    })
+    });
 
-    _client = client
+    _client = client;
 
     return client
 }

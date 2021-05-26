@@ -1,35 +1,36 @@
-import { ApolloError, useMutation } from '@apollo/client'
-import { dispatch } from '@common/redux'
+import {ApolloError, useMutation} from '@apollo/client'
+import {dispatch} from '@common/redux'
 import {
     CREATE_CUSTOMER_TOKEN,
     CreateCustomerTokenDataType,
     CreateCustomerTokenVars,
 } from '@lib/apollo/mutations/createCustomerToken'
-import { IS_LOGGED_IN } from '@lib/apollo/queries/isLoggedIn'
-import { FormResult, useForm } from '@lib/logic/app/useForm'
-import { actionsApp } from '@store/app_reducer'
+import {IS_LOGGED_IN} from '@lib/apollo/queries/isLoggedIn'
+import {FormResult, useForm} from '@lib/logic/app/useForm'
+import {actionsApp} from '@store/app_reducer'
+import {saveCustomerToken} from "@utils/storage/storage";
 
 export interface LoginForm {
-    email: string;
-    password: string;
-    secureTextEntry: boolean;
+    email: string
+    password: string
+    secureTextEntry: boolean
 }
 
 interface Result<Values> extends FormResult<Values> {
-    loading: boolean;
-    data?: CreateCustomerTokenDataType | null;
-    error?: ApolloError;
+    loading: boolean
+    data?: CreateCustomerTokenDataType | null
+    error?: ApolloError
 }
 
 export const useLogin = (): Result<LoginForm> => {
-    const [createCustomerToken, { loading, data, error }] = useMutation<CreateCustomerTokenDataType,
+    const [createCustomerToken, {loading, data, error}] = useMutation<CreateCustomerTokenDataType,
         CreateCustomerTokenVars>(CREATE_CUSTOMER_TOKEN, {
-        async update(cache, { data: _data }) {
-            const token = _data?.generateCustomerToken?.token
+        async update(cache, {data: _data}) {
+            const token = _data?.generateCustomerToken?.token;
 
             if (token) {
-                // await saveCustomerToken(_data.generateCustomerToken.token);
-                dispatch(actionsApp.onSetToken(token))
+                await saveCustomerToken(token);
+                dispatch(actionsApp.onSetToken(token));
                 cache.writeQuery({
                     query: IS_LOGGED_IN,
                     data: {
@@ -39,13 +40,13 @@ export const useLogin = (): Result<LoginForm> => {
             }
         },
     })
-    const { values, handleChange, handleSubmit } = useForm<LoginForm>({
+    const {values, handleChange, handleSubmit} = useForm<LoginForm>({
         initialValues: {
             email: '',
             password: '',
             secureTextEntry: true,
         },
-        onSubmit: async (_values: { email: any; password: any; }) => {
+        onSubmit: async (_values: { email: any; password: any }) => {
             try {
                 console.log(_values.email, _values.password)
                 await createCustomerToken({

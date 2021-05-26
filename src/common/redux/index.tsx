@@ -6,31 +6,34 @@ import { Action } from 'redux'
 type ActionBase = Action<string>
 
 const AppDispatchComponent = forwardRef((props, ref) => {
-    const dispatch = useDispatch()
+  const dispatch = useDispatch()
 
-    useImperativeHandle(
-        ref,
-        () => ({
-            dispatch: (action: ActionBase) => {
-                dispatch(action)
-            }
-        }),
-        [dispatch],
-    )
+  useImperativeHandle(
+    ref,
+    () => ({
+      dispatch: (action: ActionBase) => {
+        dispatch(action)
+      },
+    }),
+    [dispatch],
+  )
 
-    return null
+  return null
 })
 
 type AppDispatchType = {
-    dispatch: (action: ActionBase) => void
+  dispatch: (action: ActionBase) => void
 }
 
 const dispatchRef = React.createRef<AppDispatchType>()
 
-export const AppDispatch = memo(() => <AppDispatchComponent ref={dispatchRef} />, isEqual)
+export const AppDispatch = memo(
+  () => <AppDispatchComponent ref={dispatchRef} />,
+  isEqual,
+)
 
 export const dispatch = (action: ActionBase) => {
-    if (dispatchRef.current)
-        dispatchRef.current.dispatch(action)
-
+  if (dispatchRef.current) {
+    dispatchRef.current.dispatch(action);
+  }
 }

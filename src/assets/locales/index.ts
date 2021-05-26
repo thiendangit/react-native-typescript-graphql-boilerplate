@@ -4,4 +4,4 @@ const ko_KR = require('./ko/string.json')
 
 export const resources = { vi_VN, es_US, ko_KR }
 
-export type LangTypes = keyof typeof resources;
+export type LangTypes = keyof typeof resources
