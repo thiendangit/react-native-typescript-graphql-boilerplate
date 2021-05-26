@@ -1,4 +1,4 @@
-import {Spacing} from "@models/generalTypes";
+import { Spacing } from '@models/generalTypes'
 
 export const SpacingDefault: Spacing = {
     none: 0,
@@ -10,4 +10,4 @@ export const SpacingDefault: Spacing = {
     large: 32,
     huge: 48,
     massive: 64,
-};
+}

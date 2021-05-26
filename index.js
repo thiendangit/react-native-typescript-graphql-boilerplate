@@ -4,8 +4,8 @@ import App from './src/App'
 import { name as appName } from './app.json'
 
 if (__DEV__) {
-  require('./src/config/reactotronConfig');
+  require('./src/config/reactotronConfig')
   console.tron.log('Reactotron configured')
 }
 
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => App)

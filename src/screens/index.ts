@@ -1,7 +1,6 @@
-import {LoginScreen} from "./unAuthentication/loginScreen"
-import {LaunchesScreen} from "./authentication/launchesScreen"
+import { LaunchesScreen } from './authentication/launchesScreen'
+import { LoginScreen } from './unAuthentication/loginScreen'
 
 export {
-    LoginScreen,
-    LaunchesScreen
-}
+    LaunchesScreen,
+    LoginScreen }

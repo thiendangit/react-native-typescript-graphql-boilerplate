@@ -16,7 +16,7 @@
     "jsx": "react-native"
     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */,
     // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
-//     "sourceMap": true,                     /* Generates corresponding '.map' file. */
+    //"sourceMap": true,                     /* Generates corresponding '.map' file. */
     // "outFile": "./",                       /* Concatenate and emit output to single file. */
     // "outDir": "./",                        /* Redirect output structure to the directory. */
     // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
@@ -99,14 +99,14 @@
     // "preserveSymlinks": true,              /* Do not resolve the real path of symlinks. */
 
     /* Source Map Options */
-//    "sourceRoot": "./",
-//    /* Specify the location where debugger should locate TypeScript files instead of source locations. */
-//    "mapRoot": "./",
-//    /* Specify the location where debugger should locate map files instead of generated locations. */
-//    /* Emit a single file with source maps instead of having a separate file. */
-//    "inlineSourceMap": true,
-//    /* Emit a single file with source maps instead of having a separate file. */
-//    "inlineSources": true
+    //"sourceRoot": "./",
+    ///* Specify the location where debugger should locate TypeScript files instead of source locations. */
+    //"mapRoot": "./",
+    /* Specify the location where debugger should locate map files instead of generated locations. */
+    /* Emit a single file with source maps instead of having a separate file. */
+    // "inlineSourceMap": true,
+    /* Emit a single file with source maps instead of having a separate file. */
+    //"inlineSources": true
 
     /* Experimental Options */
     // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */

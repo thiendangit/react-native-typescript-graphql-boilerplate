@@ -5,6 +5,6 @@ const Container = styled.SafeAreaView(props => ({
   backgroundColor: props.theme.background,
   alignItems: 'center',
   justifyContent: 'center',
-}));
+}))
 
 export default Container

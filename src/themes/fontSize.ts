@@ -1,5 +1,5 @@
-import {FontSize} from "@models/generalTypes";
-import {moderateScale} from "@common/scale";
+import { moderateScale } from '@common/scale'
+import { FontSize } from '@models/generalTypes'
 
 
 export const FontSizeDefault: FontSize = {
@@ -37,6 +37,6 @@ export const FontSizeDefault: FontSize = {
     FONT_35: moderateScale(35),
     FONT_36: moderateScale(36),
     FONT_37: moderateScale(37),
-};
+}
 
 export type FontSizeTypes = keyof typeof FontSizeDefault;

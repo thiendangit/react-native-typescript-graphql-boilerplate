@@ -1,4 +1,4 @@
-import React, {useReducer} from 'react';
+import React, { useReducer } from 'react'
 
 interface FormConfig<Values> {
     /**
@@ -39,22 +39,23 @@ type FormAction = {
 function formReducer<Values>(state: FormState<Values>, action: FormAction) {
     if (action.type === 'SET_FIELD_VALUE') {
         // @ts-ignore
-        const field = state.values[action.payload.field];
-        let newValue = action.payload.value;
-        if (typeof field === 'boolean') {
+        const field = state.values[action.payload.field]
+        let newValue = action.payload.value
+
+        if (typeof field === 'boolean')
             // If field is boolean, simply toggle previous value and ignore new value
-            newValue = !field;
-        }
+            newValue = !field
+
         return {
             ...state,
             values: {
                 ...state.values,
                 [action.payload.field]: newValue,
             },
-        };
-    } else {
-        return state;
-    }
+        }
+    } else
+        return state
+
 }
 
 export function useForm<Values extends FormValues = FormValues>(
@@ -62,7 +63,7 @@ export function useForm<Values extends FormValues = FormValues>(
 ): FormResult<Values> {
     const [state, dispatch] = useReducer<React.Reducer<FormState<Values>, FormAction>>(formReducer, {
         values: props.initialValues,
-    });
+    })
 
     const handleChange = (field: string) => (value: any): void => {
         dispatch({
@@ -71,16 +72,16 @@ export function useForm<Values extends FormValues = FormValues>(
                 field,
                 value,
             },
-        });
-    };
+        })
+    }
 
     const handleSubmit = async () => {
-        await props.onSubmit?.(state.values);
-    };
+        await props.onSubmit?.(state.values)
+    }
 
     return {
         values: state.values,
         handleChange,
         handleSubmit,
-    };
+    }
 }

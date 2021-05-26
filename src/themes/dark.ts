@@ -18,6 +18,6 @@ const dark = {
     borderAlt: '#2E3440',
     text: '#ECEFF4',
   },
-};
+}
 
 export default dark

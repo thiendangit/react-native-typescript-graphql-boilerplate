@@ -7,12 +7,12 @@ import { Tron } from '../../global'
 Reactotron.configure({ host: DEV_SERVER_IP }) // controls connection & communication settings
   .useReactNative({}) // add all built-in react native plugins
   .use(asyncStorage({}))
-  .connect(); // let's connect!
+  .connect() // let's connect!
 
-Reactotron.clear && Reactotron.clear();
+Reactotron.clear && Reactotron.clear()
 
-console.tron = (Reactotron as unknown) as Tron;
+console.tron = (Reactotron as unknown) as Tron
 
-LogBox.ignoreLogs(['Setting a timer']);
+LogBox.ignoreLogs(['Setting a timer'])
 
 export default Reactotron

@@ -1,7 +1,6 @@
-import {Login} from "./login"
-import {Launches} from "./launches"
+import { Launches } from './launches'
+import { Login } from './login'
 
 export {
-    Login,
-    Launches
-}
+    Launches,
+    Login }

@@ -1,31 +1,32 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
+import { I18nextProvider } from 'react-i18next'
+import { Provider } from 'react-redux'
+import { ApolloClient, ApolloProvider } from '@apollo/client'
+import { getApolloClient } from '@lib/apollo/client'
+import storeConfig from '@store/store'
+import I18n from '@utils/i18n/i18n'
+import { Root,Spinner  } from 'native-base'
+import { PersistGate } from 'redux-persist/integration/react'
+
 import 'react-native-gesture-handler'
+
 import AppNavigation from './navigation'
 import ThemeManager from './themes'
-import {getApolloClient} from "@lib/apollo/client";
-import {ApolloClient, ApolloProvider} from "@apollo/client";
-import {Spinner} from "native-base";
-import {Provider} from "react-redux";
-import {PersistGate} from "redux-persist/integration/react";
-import {I18nextProvider} from "react-i18next";
-import I18n from '@utils/i18n/i18n';
-import {Root} from "native-base";
-import storeConfig from "@store/store";
 
 const App: React.FC = () => {
 
 
-    const [client, setClient] = useState<ApolloClient<any> | any>();
+    const [client, setClient] = useState<ApolloClient<any> | any>()
 
     useEffect(() => {
         getApolloClient()
             .then(setClient)
-            .catch(e => console.log(e));
-    }, []);
+            .catch(e => console.log(e))
+    }, [])
 
-    let {store, persist} = storeConfig();
+    const { store, persist } = storeConfig()
 
-    if (client) {
+    if (client)
         return (
             <PersistGate persistor={persist}>
                 <Provider store={store}>
@@ -41,9 +42,9 @@ const App: React.FC = () => {
                 </Provider>
             </PersistGate>
         )
-    } else {
+     else
         return <Spinner/>
-    }
-};
+
+}
 
 export default App

@@ -1,4 +1,4 @@
-import { gql } from '@apollo/client';
+import { gql } from '@apollo/client'
 
 export interface CreateCustomerTokenDataType {
     generateCustomerToken: {
@@ -17,4 +17,4 @@ export const CREATE_CUSTOMER_TOKEN = gql`
       token
     }
   }
-`;
+`
