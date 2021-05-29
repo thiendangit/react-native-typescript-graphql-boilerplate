@@ -16,10 +16,10 @@ const AppDispatchComponent = forwardRef((props, ref) => {
       },
     }),
     [dispatch],
-  )
+  );
 
   return null
-})
+});
 
 type AppDispatchType = {
   dispatch: (action: ActionBase) => void
@@ -30,10 +30,10 @@ const dispatchRef = React.createRef<AppDispatchType>()
 export const AppDispatch = memo(
   () => <AppDispatchComponent ref={dispatchRef} />,
   isEqual,
-)
+);
 
 export const dispatch = (action: ActionBase) => {
   if (dispatchRef.current) {
     dispatchRef.current.dispatch(action);
   }
-}
+};

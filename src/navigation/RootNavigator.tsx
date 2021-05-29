@@ -7,4 +7,4 @@ export const RootNavigation = memo(
   ({ token }: { token: string }) =>
     token ? <Authentication /> : <UnAuthentication />,
   isEqual,
-)
+);

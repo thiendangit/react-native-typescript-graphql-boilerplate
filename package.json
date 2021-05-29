@@ -28,8 +28,6 @@
   },
   "dependencies": {
     "@apollo/client": "^3.3.19",
-    "@emotion/native": "^11.0.0",
-    "@emotion/react": "^11.1.5",
     "@react-native-async-storage/async-storage": "^1.15.4",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^5.9.4",
