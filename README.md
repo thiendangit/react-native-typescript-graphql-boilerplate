@@ -13,6 +13,8 @@
 
 ## Structure
 
+<img src="src/assets/image/structure.png" alt="React Native TypeScript Graphql Boilerplate" width="250"/>
+
 ## Usage
 
 1. Clone repository
