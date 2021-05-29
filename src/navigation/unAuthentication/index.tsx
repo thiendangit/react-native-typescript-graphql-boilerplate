@@ -11,7 +11,7 @@ import { View } from 'native-base'
 
 const Stack = createStackNavigator<RootStackParamList>();
 
-const UnAuthenticationTab: React.FC = (props) => {
+const UnAuthenticationTab: React.FC = () => {
   const options: StackNavigationOptions = {
     headerShown: false,
     cardOverlayEnabled: true,

@@ -39,7 +39,8 @@ export const useLogin = (): Result<LoginForm> => {
                 })
             }
         },
-    })
+    });
+
     const {values, handleChange, handleSubmit} = useForm<LoginForm>({
         initialValues: {
             email: '',
@@ -48,7 +49,7 @@ export const useLogin = (): Result<LoginForm> => {
         },
         onSubmit: async (_values: { email: any; password: any }) => {
             try {
-                console.log(_values.email, _values.password)
+                console.log(_values.email, _values.password);
                 await createCustomerToken({
                     variables: {
                         email: _values.email,
@@ -58,7 +59,7 @@ export const useLogin = (): Result<LoginForm> => {
             } catch {
             }
         },
-    })
+    });
 
     return {
         values,
@@ -68,4 +69,4 @@ export const useLogin = (): Result<LoginForm> => {
         handleChange,
         handleSubmit,
     }
-}
+};

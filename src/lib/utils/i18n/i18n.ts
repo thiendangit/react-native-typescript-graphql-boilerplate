@@ -10,7 +10,7 @@ const languageDetector: LanguageDetectorAsyncModule = {
   },
   init: () => {},
   cacheUserLanguage: () => {},
-}
+};
 
 /**
  * Config i18n for app
@@ -36,6 +36,6 @@ i18n
       escapeValue: false, // not needed for react as it does escape per default to prevent xss!
     },
   })
-  .then(() => '')
+  .then(() => '');
 
 export default i18n

@@ -21,7 +21,7 @@ const saveValue = async (
     // saving error
     return false
   }
-}
+};
 
 const loadValue = async (key: string): Promise<string | null> => {
   try {
@@ -30,7 +30,7 @@ const loadValue = async (key: string): Promise<string | null> => {
     // error reading value
     return null
   }
-}
+};
 
 async function removeValue(key: string): Promise<void | null> {
   try {
@@ -41,10 +41,10 @@ async function removeValue(key: string): Promise<void | null> {
 }
 
 export const saveCustomerToken = async (token?: string | null) =>
-  saveValue(AsyncStorageKeys.CustomerToken, token)
+  saveValue(AsyncStorageKeys.CustomerToken, token);
 
 export const loadCustomerToken = async () =>
-  loadValue(AsyncStorageKeys.CustomerToken)
+  loadValue(AsyncStorageKeys.CustomerToken);
 
 export const removeCustomerToken = async () =>
-  removeValue(AsyncStorageKeys.CustomerToken)
+  removeValue(AsyncStorageKeys.CustomerToken);

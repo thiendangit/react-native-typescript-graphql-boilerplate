@@ -5,7 +5,7 @@ import {
   StackActions,
 } from '@react-navigation/native'
 
-export const navigationRef: React.RefObject<NavigationContainerRef> = React.createRef()
+export const navigationRef: React.RefObject<NavigationContainerRef> = React.createRef();
 
 function navigate(name: string, params?: object): void {
   navigationRef.current?.navigate(name, params)
@@ -45,4 +45,4 @@ export const NavigationService = {
   goBack,
   reset,
   pop,
-}
+};

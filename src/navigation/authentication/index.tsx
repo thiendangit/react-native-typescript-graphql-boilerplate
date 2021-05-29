@@ -5,17 +5,17 @@ import {
   createStackNavigator,
   StackNavigationOptions,
 } from '@react-navigation/stack'
-import { LaunchesScreen } from '@screens/authentication/launchesScreen'
+import { LaunchesScreen } from '@screens/authentication/homeScreen'
 import { ColorsCustom } from '@themes/color'
 import { View } from 'native-base'
 
-const Stack = createStackNavigator<RootStackParamList>()
+const Stack = createStackNavigator<RootStackParamList>();
 
-const AuthenticationTab: React.FC = (props) => {
+const AuthenticationTab: React.FC = () => {
   const options: StackNavigationOptions = {
     headerShown: false,
     cardOverlayEnabled: true,
-  }
+  };
 
   return (
     <View style={{ flex: 1, backgroundColor: ColorsCustom.white }}>
@@ -29,6 +29,6 @@ const AuthenticationTab: React.FC = (props) => {
       </Stack.Navigator>
     </View>
   )
-}
+};
 
-export const Authentication = memo(AuthenticationTab, isEqual)
+export const Authentication = memo(AuthenticationTab, isEqual);

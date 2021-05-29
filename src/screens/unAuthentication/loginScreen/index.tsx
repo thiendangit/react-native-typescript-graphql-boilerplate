@@ -10,6 +10,6 @@ const LoginComponent: React.FC<LoginScreenProps> = ({
   navigation,
 }: LoginScreenProps) => {
   return <Login />
-}
+};
 
-export const LoginScreen = memo(LoginComponent, isEqual)
+export const LoginScreen = memo(LoginComponent, isEqual);
