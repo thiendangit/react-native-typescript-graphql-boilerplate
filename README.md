@@ -1,8 +1,8 @@
+# React Native TypeScript Graphql Boilerplate
+
 <div align="center">
   <img src="https://www.clipartmax.com/png/full/1-13184_teddy-clipart-tiger-cat-card-svg-cutting-file-free.png" alt="React Native TypeScript Graphql Boilerplate" width="300"/>
 </div>
-
-# React Native TypeScript Graphql Boilerplate
 
 > ### Some libraries use in this boilerplate
 
