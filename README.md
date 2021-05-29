@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="https://www.clipartmax.com/png/middle/1-13184_teddy-clipart-tiger-cat-card-svg-cutting-file-free.png" alt="React Native TypeScript Graphql Boilerplate" width="250"/>
+  <img src="https://www.clipartmax.com/png/full/1-13184_teddy-clipart-tiger-cat-card-svg-cutting-file-free.png" alt="React Native TypeScript Graphql Boilerplate" width="250"/>
 </p>
 # React Native TypeScript Graphql Boilerplate
 
