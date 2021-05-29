@@ -11,5 +11,53 @@
   <img src="https://nativebase.io/assets/img/front-page-icon.png" width="130" title="hover text">
 </p>
 
+## Structure
+
+## Usage
+
+1. Clone repository
+
+```
+  git clone https://github.com/thiendangit/react-native-typeScript-graphql-boilerplate.git
+```
+
+2. Cd into directory
+
+```
+  cd react-native-typeScript-graphql-boilerplate/
+```
+
+3. Create .env
+
+```
+  touch .env
+```
+
+4. Add to .env
+
+```
+  API_URL=<YourGraphqlApiUrl>
+```
+
+5. Install dependencies using npm
+
+```
+  npm i or yarn install
+```
+
+6. Pod install
+
+```
+  npm run pod
+```
+
+7. run device
+
+```
+  npm run ios or yarn ios
+  OR
+  npm run android or yarn android
+```
+
  ✖ eslint --fix [FAILED]
  - quick commit : git commit -m "updating"  --no-verify
