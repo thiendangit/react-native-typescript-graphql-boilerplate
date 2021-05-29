@@ -16,7 +16,6 @@ interface Result {
     networkStatus: NetworkStatus;
     error: ApolloError | undefined;
     refresh: (arg0?: { name?: SortEnum; price?: SortEnum }) => void;
-
     loadMore(): void;
 }
 
