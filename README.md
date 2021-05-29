@@ -30,13 +30,14 @@
 3. Create .env
 
 ```
-  touch .env
+  cp .env.example .env
 ```
 
 4. Add to .env
 
 ```
   API_URL=<YourGraphqlApiUrl>
+  DEV_SERVER_IP=<YourDevGraphqlApiUrl>
 ```
 
 5. Install dependencies using npm
