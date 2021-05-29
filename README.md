@@ -1,3 +1,6 @@
+<p align="center" >
+  <img src="src/assets/image/logoBear/bitmap.png" alt="React Native TypeScript Graphql Boilerplate" width="250"/>
+</p>
 # React Native TypeScript Graphql Boilerplate
 
 > ### Some libraries use in this boilerplate
