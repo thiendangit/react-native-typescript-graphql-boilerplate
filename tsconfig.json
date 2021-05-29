@@ -65,7 +65,7 @@
         "./src/store/*"
       ],
       "@components/*": [
-        "./src/components/*"
+        "./src/lib/components/*"
       ],
       "@navigation/*": [
         "./src/navigation/*"

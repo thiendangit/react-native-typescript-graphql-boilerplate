@@ -19,7 +19,7 @@
           "@store": "./src/store",
           "@common": "./src/common",
           "@navigation": "./src/navigation",
-          "@components": "./src/components",
+          "@components": "./src/lib/components",
           "@lib": "./src/lib",
           "@assets": "./src/assets",
           "@themes": "./src/themes",

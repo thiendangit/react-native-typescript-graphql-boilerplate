@@ -11,7 +11,7 @@ import {deviceWidth, removeCustomerToken} from "@lib/utils";
 import {formatMoney} from "@utils/money/money";
 import {FontSizeDefault} from "@themes/fontSize";
 import {useTheme} from "@react-navigation/native";
-import GenericTemplate from "@components/GenericTemplate/GenericTemplate";
+import GenericTemplate from "@lib/components/GenericTemplate/GenericTemplate";
 
 const LaunchesScreen: React.FC = () => {
     const {t} = useTranslation();
