@@ -1,4 +1,4 @@
-# React Native TypeScript Graphql Boilerplate
+# React Native TypeScript Apollo Graphql Boilerplate
 
 <div align="center">
   <img src="https://www.clipartmax.com/png/full/1-13184_teddy-clipart-tiger-cat-card-svg-cutting-file-free.png" alt="React Native TypeScript Graphql Boilerplate" width="300"/>
