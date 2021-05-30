@@ -11,6 +11,7 @@ import 'react-native-gesture-handler'
 import AppNavigation from './navigation'
 import ThemeManager from "@themes/index";
 
+
 const App: React.FC = () => {
     const [client, setClient] = useState<ApolloClient<any> | any>();
 
@@ -24,19 +25,19 @@ const App: React.FC = () => {
 
     if (client) {
         return (
-            <PersistGate persistor={persist}>
-                <Provider store={store}>
-                    <Root>
-                        <ApolloProvider client={client}>
-                            <I18nextProvider i18n={I18n}>
-                                <ThemeManager>
+            <ApolloProvider client={client}>
+                <PersistGate persistor={persist}>
+                    <Provider store={store}>
+                        <I18nextProvider i18n={I18n}>
+                            <ThemeManager>
+                                <Root>
                                     <AppNavigation/>
-                                </ThemeManager>
-                            </I18nextProvider>
-                        </ApolloProvider>
-                    </Root>
-                </Provider>
-            </PersistGate>
+                                </Root>
+                            </ThemeManager>
+                        </I18nextProvider>
+                    </Provider>
+                </PersistGate>
+            </ApolloProvider>
         );
     } else {
         return <Spinner/>;

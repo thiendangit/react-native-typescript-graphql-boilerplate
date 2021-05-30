@@ -1,4 +1,5 @@
-import { LaunchesScreen } from './authentication/homeScreen'
-import { LoginScreen } from './unAuthentication/loginScreen'
+import {LaunchesScreen} from './authentication/homeScreen'
+import {LoginScreen} from './unAuthentication/loginScreen'
+import {RegisterScreen} from './unAuthentication/registerScreen'
 
-export { LaunchesScreen, LoginScreen }
+export {LaunchesScreen, LoginScreen, RegisterScreen}

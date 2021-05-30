@@ -1,4 +1,5 @@
-import { Launches } from './launches'
-import { Login } from './login'
+import {Launches} from './launches'
+import {Login} from './login'
+import {Register} from './register'
 
-export { Launches, Login }
+export {Launches, Login, Register}

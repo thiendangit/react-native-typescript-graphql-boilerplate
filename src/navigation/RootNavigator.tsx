@@ -5,6 +5,5 @@ import { UnAuthentication } from '@navigation/unAuthentication'
 
 export const RootNavigation = memo(
   ({ token }: { token: string }) =>
-    token ? <Authentication /> : <UnAuthentication />,
-  isEqual,
+    token ? <Authentication /> : <UnAuthentication />
 );

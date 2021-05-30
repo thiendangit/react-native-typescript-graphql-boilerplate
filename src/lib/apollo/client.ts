@@ -2,6 +2,7 @@ import {ApolloClient, createHttpLink, InMemoryCache} from '@apollo/client'
 import {setContext} from '@apollo/client/link/context'
 import {API_URL} from '@env'
 import {loadCustomerToken} from '@utils/storage/storage'
+import possibleTypes from "./data/possibleTypes.json"
 
 import {IS_LOGGED_IN} from './queries/isLoggedIn'
 
@@ -13,7 +14,7 @@ export async function getApolloClient(): Promise<ApolloClient<any>> {
     }
 
     const cache = new InMemoryCache({
-        // possibleTypes,
+        possibleTypes,
         typePolicies: {
             Query: {
                 fields: {

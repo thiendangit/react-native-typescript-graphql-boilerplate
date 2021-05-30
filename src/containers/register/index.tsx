@@ -1,23 +1,22 @@
-import React, {memo, useEffect} from 'react'
-import isEqual from 'react-fast-compare'
+import React, {memo} from 'react'
 import {useTranslation} from 'react-i18next'
-import {ActivityIndicator, Image, Platform, SafeAreaView, StatusBar} from 'react-native'
+import {ActivityIndicator, Image, SafeAreaView, StatusBar} from 'react-native'
 import {images} from '@assets/image'
 import {scale} from '@common/scale'
-import {useLogin} from '@lib/logic/auth/useLogin'
 import {Button, Container, Form, Input, Item, Text, View} from 'native-base'
-import {Switch} from "react-native-gesture-handler";
-import {actionsApp} from "@store/app_reducer";
 import {useSelector} from "@common/hooks";
-import {dispatch} from "@common/redux";
 import {useTheme} from "@react-navigation/native";
 import {NavigationService} from "@navigation/navigationService";
-import {APP_SCREEN} from "@navigation/screenTypes";
+import Icon from 'react-native-vector-icons/AntDesign';
+import {useRegister} from "@lib/logic/auth/useRegister";
+import {ColorsCustom} from "@themes/color";
+import isEqual from "react-fast-compare";
 
-const LoginContainer = ({}) => {
+const RegisterContainer: React.FC = () => {
     const theme = useTheme();
     const {theme: {dark}} = useSelector(x => x.app);
     const {t} = useTranslation();
+
     const {
         values,
         loading,
@@ -25,13 +24,25 @@ const LoginContainer = ({}) => {
         data,
         handleChange,
         handleSubmit,
-    } = useLogin();
+    } = useRegister();
 
-    useEffect(() => {
-        // if (error?.name && (error?.message || !loading)) {
-        //     alert(error.message);
-        // }
-    }, [error, loading, data]);
+
+    // useEffect(() => {
+    //     if (data?.createCustomer?.customer?.email) {
+    //         Toast.show({
+    //             text: t('dialog:success')
+    //         });
+    //     }
+    // }, [data]);
+
+    // useEffect(() => {
+    //     if (error) {
+    //         Toast.show({
+    //             text: t('dialog:error')
+    //         });
+    //     }
+    // }, [error]);
+
 
     return (
         <SafeAreaView style={{
@@ -64,12 +75,50 @@ const LoginContainer = ({}) => {
                     marginVertical: 16,
                     textAlign: 'center',
                 }}>{t('dialog:darkModeReview')}</Text>
-                <View style={{height: scale(100)}}>
+                <View style={{height: scale(200)}}>
                     <Form>
+                        <Item
+                            style={{
+                                height: scale(30),
+                                width: scale(300),
+                                marginTop: scale(15),
+                                borderRadius: scale(5)
+                            }}
+                            regular>
+                            <Input
+                                editable={!loading}
+                                style={{
+                                    color: theme.colors.text,
+                                }}
+                                value={values.firstname}
+                                label={t('firstName')}
+                                onChangeText={handleChange('firstname')}
+                                placeholder={'First Name'}
+                            />
+                        </Item>
+                        <Item
+                            style={{
+                                height: scale(30),
+                                width: scale(300),
+                                marginTop: scale(15),
+                                borderRadius: scale(5)
+                            }}
+                            regular>
+                            <Input
+                                editable={!loading}
+                                style={{
+                                    color: theme.colors.text
+                                }}
+                                value={values.lastname}
+                                label={t('lastName')}
+                                onChangeText={handleChange('lastname')}
+                                placeholder={'Last Name'}
+                            />
+                        </Item>
                         <Item style={{
                             height: scale(30),
                             borderRadius: scale(5),
-                            width: scale(300)
+                            marginTop: scale(10), width: scale(300)
                         }} regular>
                             <Input
                                 value={values.email}
@@ -86,8 +135,8 @@ const LoginContainer = ({}) => {
                             style={{
                                 height: scale(30),
                                 width: scale(300),
-                                borderRadius: scale(5),
                                 marginTop: scale(15),
+                                borderRadius: scale(5)
                             }}
                             regular>
                             <Input
@@ -114,38 +163,29 @@ const LoginContainer = ({}) => {
                     }}
                     onPress={handleSubmit}>
                     {(loading && <ActivityIndicator size="small" color={'white'}/>) || (
-                        <Text style={{color: 'white'}}> Login </Text>
+                        <Text style={{color: 'white'}}> {t("Register")} </Text>
                     )}
                 </Button>
-                <Text onPress={() => {
-                    NavigationService.navigate(APP_SCREEN.REGISTER)
-                }} style={{
-                    color: theme.colors.primary,
-                    textDecorationLine: "underline",
-                    marginTop: scale(10)
-                }}> Register new account </Text>
-                <View
+                <Text style={{color: ColorsCustom.red, marginTop: scale(10)}}> {error?.message} </Text>
+                {data?.createCustomer?.customer?.email &&
+                <Text style={{color: ColorsCustom.red, marginTop: scale(10)}}> {t("dialog:success")} </Text>
+                }
+                <Button
                     style={{
                         position: 'absolute',
-                        top: scale(40),
-                        right: scale(20),
-                    }}>
-                    <Switch
-                        trackColor={{
-                            true: Platform.OS === 'ios' ? theme.colors.primary : theme.colors.border,
-                            false: theme.colors.border,
-                        }}
-                        thumbColor={Platform.OS === 'android' ? theme.colors.primary : ''}
-                        value={dark}
-                        style={{
-                            marginVertical: 16
-                        }}
-                        onValueChange={() => dispatch(actionsApp.onSetDarkMode(!dark))}
-                    />
-                </View>
+                        left: 5,
+                        top: 10,
+                        height: scale(30),
+                        width: scale(30),
+                        alignItems: 'center',
+                        justifyContent: 'center'
+                    }}
+                    onPress={() => NavigationService.goBack()}>
+                    <Icon name='left' color={theme.colors.text}/>
+                </Button>
             </Container>
         </SafeAreaView>
     )
 };
 
-export const Login = memo(LoginContainer, isEqual);
+export const Register = memo(RegisterContainer, isEqual);
