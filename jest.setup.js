@@ -1,4 +1,3 @@
-import MockAsyncStorage from 'mock-async-storage';
+import mockAsyncStorage from '@react-native-async-storage/async-storage/jest/async-storage-mock';
 
-const mockImpl = new MockAsyncStorage();
-jest.mock('@react-native-async-storage/async-storage', () => mockImpl);
+jest.mock('@react-native-async-storage/async-storage', () => mockAsyncStorage);

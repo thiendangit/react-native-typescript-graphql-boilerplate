@@ -1462,7 +1462,7 @@
         "affectsGlobalScope": false
       },
       "../../src/store/store.ts": {
-        "version": "a1b44a104e00a48aa4677bd2b3a04aab8df1d85a73feb4e63d4ddd54dd5508b8",
+        "version": "3682417b8ef64688bc92718e7dac04276e200abf6000644e770ec7f80e9f0dd7",
         "signature": "a80943e83f399aead37dac4e32b9f079e7eda15454b1854c4ae4643fdc060e24",
         "affectsGlobalScope": false
       },
@@ -2451,9 +2451,9 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
-      "../../jestsetupfile.js": {
-        "version": "29a2ded88208f2632fd46ada456b384539840dae7c67e1f99aff797a79c9a305",
-        "signature": "9e12c15cde5c6dea56521ec6208bd1a658e9e9758c20a8ff3129218341e6abca",
+      "../../jest.setup.js": {
+        "version": "7556f066c412c3d4cf6f49b3bdc8427c6b52d059dfd1efda8027efce1f760ced",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
       "../../lint-staged.config.js": {
@@ -2466,13 +2466,13 @@
         "signature": "59dbd16990a4339b71efc5d6db4323c9307019b470de592b90315c10796c5d2a",
         "affectsGlobalScope": true
       },
-      "../../node_modules/@types/react-test-renderer/index.d.ts": {
-        "version": "60aaac5fb1858fbd4c4eb40e01706eb227eed9eca5c665564bd146971280dbd3",
-        "signature": "60aaac5fb1858fbd4c4eb40e01706eb227eed9eca5c665564bd146971280dbd3",
+      "../../__mocks__/@react-native-community/async-storage.js": {
+        "version": "ba9d13222145544f55e5b836496c02cefe53a2e1798983ae911cebac5a248735",
+        "signature": "26d3b89c6af2bd43267453a4bf956339a75ae01b16e45f3b058190706002e7b6",
         "affectsGlobalScope": false
       },
       "../../__tests__/app-test.js": {
-        "version": "12327c8a47778b095e5a3ab7821256499ff8e63eb7c6c2770d59008106d401db",
+        "version": "8000b77c934068a78cec09d878b287b451b307e7840f17bec7f6ca0e9f51b841",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -2751,6 +2751,11 @@
         "signature": "905638a87af6b0a1ac8d00fde922dce441e302b06a32b8f1cc3196a02d8ffe8d",
         "affectsGlobalScope": false
       },
+      "../../node_modules/@types/react-test-renderer/index.d.ts": {
+        "version": "60aaac5fb1858fbd4c4eb40e01706eb227eed9eca5c665564bd146971280dbd3",
+        "signature": "60aaac5fb1858fbd4c4eb40e01706eb227eed9eca5c665564bd146971280dbd3",
+        "affectsGlobalScope": false
+      },
       "../../node_modules/@types/scheduler/index.d.ts": {
         "version": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5",
         "signature": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5",
@@ -2833,11 +2838,7 @@
     },
     "referencedMap": {
       "../../__tests__/app-test.js": [
-        "../../node_modules/@react-native-async-storage/async-storage/types/index.d.ts",
-        "../../node_modules/@types/react-native/index.d.ts",
-        "../../node_modules/@types/react-test-renderer/index.d.ts",
-        "../../node_modules/@types/react/index.d.ts",
-        "../../src/app.tsx"
+        "../../node_modules/@react-native-async-storage/async-storage/types/index.d.ts"
       ],
       "../../declarations.d.ts": [
         "../../node_modules/@types/react/index.d.ts",
@@ -7368,13 +7369,14 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "../../__mocks__/@react-native-community/async-storage.js",
       "../../__tests__/app-test.js",
       "../../app.json",
       "../../declarations.d.ts",
       "../../env.d.ts",
       "../../global.d.ts",
       "../../index.js",
-      "../../jestsetupfile.js",
+      "../../jest.setup.js",
       "../../lint-staged.config.js",
       "../../node_modules/@apollo/client/cache/core/cache.d.ts",
       "../../node_modules/@apollo/client/cache/core/types/cache.d.ts",
@@ -7925,6 +7927,10 @@
     ],
     "affectedFilesPendingEmit": [
       [
+        "../../__mocks__/@react-native-community/async-storage.js",
+        1
+      ],
+      [
         "../../__tests__/app-test.js",
         1
       ],
@@ -7946,6 +7952,10 @@
       ],
       [
         "../../index.js",
+        1
+      ],
+      [
+        "../../jest.setup.js",
         1
       ],
       [
