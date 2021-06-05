@@ -38,8 +38,9 @@
     "warning": "Warning",
     "info": "Info",
     "success": "Success",
+    "login_success": "Login Success",
     "loading": "Loading",
-    "darkModeReview" : "Use the switch above to switch to dark mode. Default value comes from OS settings."
+    "darkModeReview": "Use the switch above to switch to dark mode. Default value comes from OS settings."
   },
   "common": {
     "signIn": "Sign In",

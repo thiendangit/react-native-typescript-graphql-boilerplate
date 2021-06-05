@@ -1,6 +1,6 @@
-import { combineReducers } from '@reduxjs/toolkit'
+import { combineReducers } from '@reduxjs/toolkit';
 
-import { appReducer } from './app_reducer'
+import { appReducer } from './app_reducer';
 
 export const allReducer = combineReducers({
   app: appReducer,

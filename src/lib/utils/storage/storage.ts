@@ -1,4 +1,4 @@
-import AsyncStorage from '@react-native-async-storage/async-storage'
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export enum AsyncStorageKeys {
   CustomerToken = 'customer_token',
@@ -13,30 +13,30 @@ const saveValue = async (
     if (typeof value === 'string' && value !== '') {
       await AsyncStorage.setItem(key, value);
     } else {
-      await AsyncStorage.removeItem(key)
+      await AsyncStorage.removeItem(key);
     }
 
-    return true
+    return true;
   } catch (e) {
     // saving error
-    return false
+    return false;
   }
 };
 
 const loadValue = async (key: string): Promise<string | null> => {
   try {
-    return await AsyncStorage.getItem(key)
+    return await AsyncStorage.getItem(key);
   } catch (e) {
     // error reading value
-    return null
+    return null;
   }
 };
 
 async function removeValue(key: string): Promise<void | null> {
   try {
-    return await AsyncStorage.removeItem(key)
+    return await AsyncStorage.removeItem(key);
   } catch (exception) {
-    return null
+    return null;
   }
 }
 

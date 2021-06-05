@@ -1,1 +1,10 @@
-module.exports = require('eslint-config-rokket-labs/prettier')
+module.exports = {
+  singleQuote: true,
+  semi: false,
+  trailingComma: 'all',
+  bracketSpacing: true,
+  tabWidth: 2,
+  useTabs: false,
+  arrowParens: 'always',
+  jsxBracketSameLine: true,
+}

@@ -1,21 +1,53 @@
 {
   "root": true,
-  "extends": "@react-native-community",
+  "extends": [
+    //    "@react-native-community",
+    //    "prettier",
+    //    "standard"
+  ],
   "parser": "@typescript-eslint/parser",
   "plugins": [
     "@typescript-eslint",
-    "react-hooks"
+    "react-hooks",
+    "unused-imports",
+    "eslint-plugin-no-inline-styles"
   ],
+  "rules": {
+    "no-inline-styles/no-inline-styles": 0,
+    "semi": [
+      "error",
+      "always"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "no-unused-vars": "off",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ]
+  },
   "settings": {
     "import/resolver": {
       "babel-module": {
         "alias": {
           "@utils": "./src/lib/utils",
           "@screens": "./src/screens",
-          "@common": "./src/common",
           "@store": "./src/store",
+          "@common": "./src/common",
           "@navigation": "./src/navigation",
-          "@components": "./src/components",
+          "@components": "./src/lib/components",
           "@lib": "./src/lib",
           "@assets": "./src/assets",
           "@themes": "./src/themes",

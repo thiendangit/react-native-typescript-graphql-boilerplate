@@ -2,12 +2,12 @@
 const fetch = require('cross-fetch');
 const fs = require('fs');
 
-fetch(`https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/graphql`, {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({
-        variables: {},
-        query: `
+fetch('https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/graphql', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    variables: {},
+    query: `
       {
         __schema {
           types {
@@ -20,29 +20,29 @@ fetch(`https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/graphql`, {
         }
       }
     `,
-    }),
+  }),
 })
-    .then(result => result.json())
-    .then(result => {
-        const possibleTypes = {};
+  .then((result) => result.json())
+  .then((result) => {
+    const possibleTypes = {};
 
-        result.data.__schema.types.forEach(supertype => {
-            if (supertype.possibleTypes) {
-                possibleTypes[supertype.name] = supertype.possibleTypes.map(
-                    subtype => subtype.name,
-                );
-            }
-        });
-
-        fs.writeFile(
-            './src/lib/apollo/data/possibleTypes.json',
-            JSON.stringify(possibleTypes),
-            err => {
-                if (err) {
-                    console.error('Error writing possibleTypes.json', err);
-                } else {
-                    console.log('Fragment types successfully extracted!');
-                }
-            },
+    result.data.__schema.types.forEach((supertype) => {
+      if (supertype.possibleTypes) {
+        possibleTypes[supertype.name] = supertype.possibleTypes.map(
+          (subtype) => subtype.name,
         );
+      }
     });
+
+    fs.writeFile(
+      './src/lib/apollo/data/possibleTypes.json',
+      JSON.stringify(possibleTypes),
+      (err) => {
+        if (err) {
+          console.error('Error writing possibleTypes.json', err);
+        } else {
+          console.log('Fragment types successfully extracted!');
+        }
+      },
+    );
+  });

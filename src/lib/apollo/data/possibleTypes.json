@@ -1,8 +1,5 @@
 {
-  "CartAddressInterface": [
-    "BillingCartAddress",
-    "ShippingCartAddress"
-  ],
+  "CartAddressInterface": ["BillingCartAddress", "ShippingCartAddress"],
   "CartItemInterface": [
     "SimpleCartItem",
     "VirtualCartItem",
@@ -20,16 +17,9 @@
     "ConfigurableProduct",
     "GiftCardProduct"
   ],
-  "CategoryInterface": [
-    "CategoryTree"
-  ],
-  "MediaGalleryInterface": [
-    "ProductImage",
-    "ProductVideo"
-  ],
-  "ProductLinksInterface": [
-    "ProductLinks"
-  ],
+  "CategoryInterface": ["CategoryTree"],
+  "MediaGalleryInterface": ["ProductImage", "ProductVideo"],
+  "ProductLinksInterface": ["ProductLinks"],
   "CreditMemoItemInterface": [
     "DownloadableCreditMemoItem",
     "BundleCreditMemoItem",
@@ -62,13 +52,8 @@
     "ConfigurableWishlistItem",
     "GiftCardWishlistItem"
   ],
-  "AggregationOptionInterface": [
-    "AggregationOption"
-  ],
-  "LayerFilterItemInterface": [
-    "LayerFilterItem",
-    "SwatchLayerFilterItem"
-  ],
+  "AggregationOptionInterface": ["AggregationOption"],
+  "LayerFilterItemInterface": ["LayerFilterItem", "SwatchLayerFilterItem"],
   "PhysicalProductInterface": [
     "SimpleProduct",
     "BundleProduct",
@@ -99,7 +84,5 @@
     "TextSwatchData",
     "ColorSwatchData"
   ],
-  "SwatchLayerFilterItemInterface": [
-    "SwatchLayerFilterItem"
-  ]
+  "SwatchLayerFilterItemInterface": ["SwatchLayerFilterItem"]
 }

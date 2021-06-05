@@ -1,31 +1,31 @@
-import React, { forwardRef, memo, useImperativeHandle } from 'react'
-import isEqual from 'react-fast-compare'
-import { useDispatch } from 'react-redux'
-import { Action } from 'redux'
+import React, { forwardRef, memo, useImperativeHandle } from 'react';
+import isEqual from 'react-fast-compare';
+import { useDispatch } from 'react-redux';
+import { Action } from 'redux';
 
 type ActionBase = Action<string>
 
 const AppDispatchComponent = forwardRef((props, ref) => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   useImperativeHandle(
     ref,
     () => ({
       dispatch: (action: ActionBase) => {
-        dispatch(action)
+        dispatch(action);
       },
     }),
     [dispatch],
   );
 
-  return null
+  return null;
 });
 
 type AppDispatchType = {
   dispatch: (action: ActionBase) => void
 }
 
-const dispatchRef = React.createRef<AppDispatchType>()
+const dispatchRef = React.createRef<AppDispatchType>();
 
 export const AppDispatch = memo(
   () => <AppDispatchComponent ref={dispatchRef} />,

@@ -4,3 +4,5 @@
 yarn lint-staged
 npm test
 npm test
+npm test
+npm test

@@ -1,9 +1,9 @@
-import AsyncStorage from '@react-native-async-storage/async-storage'
-import { allReducer } from '@store/allReducers'
-import { applyMiddleware, compose, createStore } from 'redux'
-import logger from 'redux-logger'
-import { persistReducer, persistStore } from 'redux-persist'
-import thunk from 'redux-thunk'
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { allReducer } from '@store/allReducers';
+import { applyMiddleware, compose, createStore } from 'redux';
+import logger from 'redux-logger';
+import { persistReducer, persistStore } from 'redux-persist';
+import thunk from 'redux-thunk';
 
 const devMode = __DEV__;
 const middleware: any[] = [];
@@ -15,7 +15,7 @@ const config: any = {
   storage: AsyncStorage,
   blacklist: [''],
   timeout: null,
-  debug: true, // to get useful logging
+  debug: false, // to get useful logging
 };
 
 if (devMode) {
@@ -29,7 +29,7 @@ const store = createStore(persistedReducer, enhancers);
 const persist = persistStore(store);
 
 const storeConfig = () => {
-  return { persist, store }
+  return { persist, store };
 };
 
-export default storeConfig
+export default storeConfig;

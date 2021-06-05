@@ -1,4 +1,4 @@
-import { Dimensions } from 'react-native'
+import { Dimensions } from 'react-native';
 
 const { width, height } = Dimensions.get('window');
 const [shortDimension, longDimension] =
@@ -15,4 +15,4 @@ const moderateScale = (size: number, factor = 0.5) =>
 const moderateVerticalScale = (size: number, factor = 0.5) =>
   size + (verticalScale(size) - size) * factor;
 
-export { moderateScale, moderateVerticalScale, scale, verticalScale }
+export { moderateScale, moderateVerticalScale, scale, verticalScale };

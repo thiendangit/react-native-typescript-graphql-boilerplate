@@ -1,4 +1,4 @@
-export {}
+export {};
 
 type EmptyFunc = (...args: unknown[]) => void
 

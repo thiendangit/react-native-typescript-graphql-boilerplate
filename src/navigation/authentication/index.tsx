@@ -1,13 +1,13 @@
-import React, { memo } from 'react'
-import isEqual from 'react-fast-compare'
-import { APP_SCREEN, RootStackParamList } from '@navigation/screenTypes'
+import React, { memo } from 'react';
+import isEqual from 'react-fast-compare';
+import { APP_SCREEN, RootStackParamList } from '@navigation/screenTypes';
 import {
   createStackNavigator,
   StackNavigationOptions,
-} from '@react-navigation/stack'
-import { LaunchesScreen } from '@screens/authentication/homeScreen'
-import { ColorsCustom } from '@themes/color'
-import { View } from 'native-base'
+} from '@react-navigation/stack';
+import { LaunchesScreen } from '@screens/authentication/homeScreen';
+import { ColorsCustom } from '@themes/color';
+import { View } from 'native-base';
 
 const Stack = createStackNavigator<RootStackParamList>();
 
@@ -28,7 +28,7 @@ const AuthenticationTab: React.FC = () => {
         />
       </Stack.Navigator>
     </View>
-  )
+  );
 };
 
 export const Authentication = memo(AuthenticationTab, isEqual);

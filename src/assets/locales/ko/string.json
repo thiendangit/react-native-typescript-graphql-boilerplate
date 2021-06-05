@@ -38,8 +38,9 @@
     "warning": "경고",
     "info": "정보",
     "success": "성공",
+    "login_success": "로그인 성공",
     "loading": "로드 중",
-    "darkModeReview" : "위의 스위치를 사용하여 어두운 모드로 전환하십시오. 기본값은 OS 설정에서 가져옵니다."
+    "darkModeReview": "위의 스위치를 사용하여 어두운 모드로 전환하십시오. 기본값은 OS 설정에서 가져옵니다."
   },
   "common": {
     "signIn": "로그인",

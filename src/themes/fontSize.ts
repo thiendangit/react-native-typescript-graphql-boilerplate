@@ -1,5 +1,5 @@
-import { moderateScale } from '@common/scale'
-import { FontSize } from '@models/generalTypes'
+import { moderateScale } from '@common/scale';
+import { FontSize } from '@models/generalTypes';
 
 export const FontSizeDefault: FontSize = {
   FONT_4: moderateScale(4),

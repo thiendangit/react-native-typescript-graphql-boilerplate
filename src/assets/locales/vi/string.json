@@ -58,6 +58,7 @@
     "warning": "Cảnh báo",
     "info": "Thông tin",
     "success": "Thành công",
+    "login_success": "Login Success",
     "loading": "Loading",
     "darkModeReview": "Sử dụng công tắc ở trên để chuyển sang chế độ tối. Giá trị mặc định đến từ cài đặt hệ điều hành."
   },

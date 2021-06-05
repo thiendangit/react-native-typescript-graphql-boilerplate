@@ -1,5 +1,3 @@
-import GenericTemplate from "./GenericTemplate/GenericTemplate";
+import GenericTemplate from './GenericTemplate/GenericTemplate';
 
-export {
-    GenericTemplate
-}
+export { GenericTemplate };
