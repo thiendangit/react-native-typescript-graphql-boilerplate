@@ -4,7 +4,7 @@ const fs = require('fs');
 
 fetch('https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/graphql', {
   method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
+  headers: {'Content-Type': 'application/json'},
   body: JSON.stringify({
     variables: {},
     query: `

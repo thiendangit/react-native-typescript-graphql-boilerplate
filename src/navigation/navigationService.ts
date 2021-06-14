@@ -33,7 +33,7 @@ function goBack(): void {
 
 function reset(routes?: any): void {
   navigationRef.current?.reset({
-    routes: [{ name: routes }],
+    routes: [{name: routes}],
   });
 }
 

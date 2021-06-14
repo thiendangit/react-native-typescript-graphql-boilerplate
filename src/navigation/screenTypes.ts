@@ -5,6 +5,7 @@ export enum APP_SCREEN {
   REGISTER = 'REGISTER',
   AUTHORIZE = 'AUTHORIZE',
   HOME = 'HOME',
+  PRODUCT_DETAILS = 'PRODUCT_DETAILS',
 }
 
 export type RootStackParamList = {
@@ -14,6 +15,9 @@ export type RootStackParamList = {
   [APP_SCREEN.LOGIN]: undefined
   [APP_SCREEN.REGISTER]: undefined
   [APP_SCREEN.HOME]: undefined
+  [APP_SCREEN.PRODUCT_DETAILS]: {
+    sku: number
+  }
 }
 
 export type RootStackParamListType = keyof RootStackParamList

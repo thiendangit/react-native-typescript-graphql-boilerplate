@@ -1,5 +1,6 @@
-import { Launches } from './launches';
-import { Login } from './login';
-import { Register } from './register';
+import {Launches} from './launches';
+import {Login} from './login';
+import {Register} from './register';
+import {ProductDetails} from './productDetails';
 
-export { Launches, Login, Register };
+export {Launches, Login, Register, ProductDetails};

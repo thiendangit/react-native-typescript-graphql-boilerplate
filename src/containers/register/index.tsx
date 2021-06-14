@@ -1,22 +1,22 @@
-import React, { memo, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
-import { ActivityIndicator, Image, SafeAreaView, StatusBar } from 'react-native';
-import { images } from '@assets/image';
-import { scale } from '@common/scale';
-import { Button, Container, Form, Input, Item, Text, View } from 'native-base';
-import { useSelector, useToast } from '@common/hooks';
-import { useTheme } from '@react-navigation/native';
-import { NavigationService } from '@navigation/navigationService';
+import React, {memo, useEffect} from 'react';
+import {useTranslation} from 'react-i18next';
+import {ActivityIndicator, Image, SafeAreaView, StatusBar} from 'react-native';
+import {images} from '@assets/image';
+import {scale} from '@common/scale';
+import {Button, Container, Form, Input, Item, Text, View} from 'native-base';
+import {useSelector, useToast} from '@common/hooks';
+import {useTheme} from '@react-navigation/native';
+import {NavigationService} from '@navigation/navigationService';
 import Icon from 'react-native-vector-icons/AntDesign';
-import { useRegister } from '@lib/logic/auth/useRegister';
+import {useRegister} from '@lib/logic/auth/useRegister';
 import isEqual from 'react-fast-compare';
 
 const RegisterContainer: React.FC = () => {
   const theme = useTheme();
   const {
-    theme: { dark },
+    theme: {dark},
   } = useSelector((x) => x.app);
-  const { t } = useTranslation();
+  const {t} = useTranslation();
   const toast = useToast();
 
   const {
@@ -79,7 +79,7 @@ const RegisterContainer: React.FC = () => {
           }}>
           {t('dialog:darkModeReview')}
         </Text>
-        <View style={{ height: scale(200) }}>
+        <View style={{height: scale(200)}}>
           <Form>
             <Item
               style={{
@@ -170,7 +170,7 @@ const RegisterContainer: React.FC = () => {
           }}
           onPress={handleSubmit}>
           {(loading && <ActivityIndicator size="small" color={'white'} />) || (
-            <Text style={{ color: 'white' }}> {t('Register')} </Text>
+            <Text style={{color: 'white'}}> {t('Register')} </Text>
           )}
         </Button>
         <Button

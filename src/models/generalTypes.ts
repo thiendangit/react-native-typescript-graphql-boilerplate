@@ -1,3 +1,8 @@
+import {
+  SortEnum,
+} from '@lib/apollo/queries/getCategoryProducts';
+import {ApolloError, NetworkStatus} from '@apollo/client';
+
 export enum SLICE_NAME {
   APP = 'APP',
 }
@@ -82,4 +87,17 @@ export interface Spacing {
   large: number
   huge: number
   massive: number
+}
+
+// eslint-disable-next-line unused-imports/no-unused-vars
+export interface Result<T> {
+  data: T | undefined
+  networkStatus: NetworkStatus
+  error: ApolloError | undefined
+  loading: boolean
+  refreshing: boolean
+  isLoadMore: boolean
+  refresh: (arg0?: { name?: SortEnum; price?: SortEnum }) => void
+
+  loadMore(): void
 }

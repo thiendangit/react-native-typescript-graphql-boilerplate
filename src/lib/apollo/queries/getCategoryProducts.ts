@@ -1,4 +1,8 @@
-import { gql } from '@apollo/client';
+import {gql} from '@apollo/client';
+import {
+  ProductInListType,
+  PRODUCTS_FRAGMENT,
+} from '@lib/apollo/queries/productsFragment';
 
 export interface GetCategoryProductsVars {
   id: string
@@ -11,7 +15,7 @@ export interface GetCategoryProductsVars {
 export interface CategoryProductsDataType {
   products: {
     total_count: number
-    items: Array<any>
+    items: Array<ProductInListType>
   }
 }
 
@@ -34,26 +38,12 @@ export const GET_CATEGORY_PRODUCTS = gql`
       sort: { price: $price, name: $name }
       currentPage: $currentPage
     ) {
-      items {
-        name
-        sku
-        image {
-          url
-          label
-        }
-        price_range {
-          minimum_price {
-            regular_price {
-              value
-              currency
-            }
-          }
-        }
-      }
       total_count
       page_info {
         page_size
       }
+      ...ProductsListFragment
     }
   }
+  ${PRODUCTS_FRAGMENT}
 `;

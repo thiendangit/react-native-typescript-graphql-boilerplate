@@ -1,6 +1,6 @@
-import React, { memo, useEffect } from 'react';
+import React, {memo, useEffect} from 'react';
 import isEqual from 'react-fast-compare';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 import {
   ActivityIndicator,
   Image,
@@ -8,24 +8,24 @@ import {
   SafeAreaView,
   StatusBar,
 } from 'react-native';
-import { images } from '@assets/image';
-import { scale } from '@common/scale';
-import { useLogin } from '@lib/logic/auth/useLogin';
-import { Button, Container, Form, Input, Item, Text, View } from 'native-base';
-import { Switch } from 'react-native-gesture-handler';
-import { actionsApp } from '@store/app_reducer';
-import { useSelector, useToast } from '@common/hooks';
-import { dispatch } from '@common/redux';
-import { useTheme } from '@react-navigation/native';
-import { NavigationService } from '@navigation/navigationService';
-import { APP_SCREEN } from '@navigation/screenTypes';
+import {images} from '@assets/image';
+import {scale} from '@common/scale';
+import {useLogin} from '@lib/logic/auth/useLogin';
+import {Button, Container, Form, Input, Item, Text, View} from 'native-base';
+import {Switch} from 'react-native-gesture-handler';
+import {actionsApp} from '@store/app_reducer';
+import {useSelector, useToast} from '@common/hooks';
+import {dispatch} from '@common/redux';
+import {useTheme} from '@react-navigation/native';
+import {NavigationService} from '@navigation/navigationService';
+import {APP_SCREEN} from '@navigation/screenTypes';
 
 const LoginContainer = ({}) => {
   const theme = useTheme();
   const {
-    theme: { dark },
+    theme: {dark},
   } = useSelector((x) => x.app);
-  const { t } = useTranslation();
+  const {t} = useTranslation();
   const toast = useToast();
   const {
     values,
@@ -87,7 +87,7 @@ const LoginContainer = ({}) => {
           }}>
           {t('dialog:darkModeReview')}
         </Text>
-        <View style={{ height: scale(100) }}>
+        <View style={{height: scale(100)}}>
           <Form>
             <Item
               style={{
@@ -139,7 +139,7 @@ const LoginContainer = ({}) => {
           }}
           onPress={handleSubmit}>
           {(loading && <ActivityIndicator size="small" color={'white'} />) || (
-            <Text style={{ color: 'white' }}> Login </Text>
+            <Text style={{color: 'white'}}> Login </Text>
           )}
         </Button>
         <Text

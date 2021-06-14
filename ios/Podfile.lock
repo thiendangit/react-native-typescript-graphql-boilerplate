@@ -310,8 +310,8 @@ PODS:
     - React-Core
   - RNSVG (12.1.1):
     - React
-  - RNVectorIcons (7.1.0):
-    - React
+  - RNVectorIcons (8.1.0):
+    - React-Core
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -452,7 +452,7 @@ SPEC CHECKSUMS:
   React-jsi: 5de8204706bd872b78ea646aee5d2561ca1214b6
   React-jsiexecutor: 124e8f99992490d0d13e0649d950d3e1aae06fe9
   React-jsinspector: 500a59626037be5b3b3d89c5151bc3baa9abf1a9
-  react-native-safe-area-context: e471852c5ed67eea4b10c5d9d43c1cebae3b231d
+  react-native-safe-area-context: f0906bf8bc9835ac9a9d3f97e8bde2a997d8da79
   React-perflogger: aad6d4b4a267936b3667260d1f649b6f6069a675
   React-RCTActionSheet: fc376be462c9c8d6ad82c0905442fd77f82a9d2a
   React-RCTAnimation: ba0a1c3a2738be224a08092fa7f1b444ab77d309
@@ -465,14 +465,14 @@ SPEC CHECKSUMS:
   React-RCTVibration: 4b99a7f5c6c0abbc5256410cc5425fb8531986e1
   React-runtimeexecutor: ff951a0c241bfaefc4940a3f1f1a229e7cb32fa6
   ReactCommon: bedc99ed4dae329c4fcf128d0c31b9115e5365ca
-  RNBootSplash: 5d4eaad77c938b6a4ced872587ffab8d057fc043
-  RNCAsyncStorage: b17c417b356114699a486715adfa5829a5d6d8b9
-  RNCMaskedView: f127cd9652acfa31b91dcff613e07ba18b774db6
+  RNBootSplash: 9e99559e892b1cb621321f04969149a25a44c5a5
+  RNCAsyncStorage: f47a7e8f927f7c9da947491fc55752eb9ce17f2d
+  RNCMaskedView: 0e1bc4bfa8365eba5fbbb71e07fbdc0555249489
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNReanimated: b8c8004b43446e3c2709fe64b2b41072f87428ad
   RNScreens: bd1523c3bde7069b8e958e5a16e1fc7722ad0bdd
   RNSVG: 551acb6562324b1d52a4e0758f7ca0ec234e278f
-  RNVectorIcons: bc69e6a278b14842063605de32bec61f0b251a59
+  RNVectorIcons: 31cebfcf94e8cf8686eb5303ae0357da64d7a5a4
   Yoga: a7de31c64fe738607e7a3803e3f591a4b1df7393
 
 PODFILE CHECKSUM: f02ccba779c5f90148bca0c16c327c54cf2276cf

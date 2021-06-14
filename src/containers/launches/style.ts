@@ -1,10 +1,10 @@
-import { StyleSheet } from 'react-native';
-import { STYLES } from '@common/style';
-import { Theme } from '@react-navigation/native';
-import { scale } from '@common/scale';
-import { deviceWidth } from '@lib/utils';
-import { FontSizeDefault } from '@themes/fontSize';
-import { SpacingDefault } from '@themes/spacing';
+import {StyleSheet} from 'react-native';
+import {STYLES} from '@common/style';
+import {Theme} from '@react-navigation/native';
+import {scale} from '@common/scale';
+import {deviceWidth} from '@lib/utils';
+import {FontSizeDefault} from '@themes/fontSize';
+import {SpacingDefault} from '@themes/spacing';
 
 export const styles = (theme?: Theme) => {
   return StyleSheet.create({
@@ -18,6 +18,7 @@ export const styles = (theme?: Theme) => {
       marginTop: scale(10),
       width: deviceWidth - scale(20),
       flexDirection: 'row',
+      justifyContent: 'flex-start',
       marginHorizontal: scale(10),
       shadowColor: theme?.colors.text,
       shadowOffset: {
