@@ -189,7 +189,6 @@
       <change afterPath="$PROJECT_DIR$/template/tsconfig.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/tsconfig.tsbuildinfo" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -301,7 +300,8 @@
       <workItem from="1625136034261" duration="346000" />
       <workItem from="1625139740962" duration="711000" />
       <workItem from="1625427833899" duration="1591000" />
-      <workItem from="1625429509832" duration="1741000" />
+      <workItem from="1625429509832" duration="1877000" />
+      <workItem from="1625431432772" duration="43000" />
     </task>
     <servers />
   </component>

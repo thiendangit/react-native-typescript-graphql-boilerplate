@@ -29,7 +29,7 @@
 ## Usage RN 0.64.1
 
 ```bash
-  npx react-native init MyApp --template @hmarques98/react-native-template-typescript
+  npx react-native init MyApp --template @thiendangit1102/rn-typescript-graphql
 ```
 
 2. Cd into directory
