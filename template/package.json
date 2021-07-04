@@ -122,5 +122,10 @@
       "node"
     ],
     "resetMocks": false
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

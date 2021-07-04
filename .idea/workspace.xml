@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/file-walkthrough.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template.config.js" afterDir="false" />
@@ -30,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/template/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.husky/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/.prettierrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.watchmanconfig" beforeDir="false" afterPath="$PROJECT_DIR$/template/.watchmanconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -95,8 +95,6 @@
       <change beforePath="$PROJECT_DIR$/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/global.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/xcshareddata/xcschemes/RNTypeScriptGraphqlBoilerplate.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/xcshareddata/xcschemes/RNTypeScriptGraphqlBoilerplate.xcscheme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/contents.xcworkspacedata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
@@ -117,7 +115,6 @@
       <change beforePath="$PROJECT_DIR$/jest.setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/jest.setup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lint-staged.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/lint-staged.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/metro.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-native.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/react-native.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/App.tsx" afterDir="false" />
@@ -204,6 +201,7 @@
       <change beforePath="$PROJECT_DIR$/src/themes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/themes/light.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/light.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/themes/spacing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/spacing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/Podfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/template/tsconfig.tsbuildinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/template/yarn.lock" afterDir="false" />
@@ -315,7 +313,7 @@
       <workItem from="1625136034261" duration="346000" />
       <workItem from="1625139740962" duration="711000" />
       <workItem from="1625427833899" duration="1591000" />
-      <workItem from="1625429509832" duration="256000" />
+      <workItem from="1625429509832" duration="897000" />
     </task>
     <servers />
   </component>
