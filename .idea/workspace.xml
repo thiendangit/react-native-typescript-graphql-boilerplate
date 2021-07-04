@@ -189,6 +189,8 @@
       <change afterPath="$PROJECT_DIR$/template/tsconfig.tsbuildinfo" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +214,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/template" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -299,7 +301,7 @@
       <workItem from="1625427833899" duration="1591000" />
       <workItem from="1625429509832" duration="1877000" />
       <workItem from="1625431432772" duration="101000" />
-      <workItem from="1625431571309" duration="779000" />
+      <workItem from="1625431571309" duration="932000" />
     </task>
     <servers />
   </component>
