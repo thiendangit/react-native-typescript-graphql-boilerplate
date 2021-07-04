@@ -76,7 +76,6 @@
       <change afterPath="$PROJECT_DIR$/template/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/ios/File.swift" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/ios/Podfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/ios/Podfile.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate-Bridging-Header.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/project.pbxproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/xcshareddata/xcschemes/RNTypeScriptGraphqlBoilerplate.xcscheme" afterDir="false" />
@@ -190,8 +189,6 @@
       <change afterPath="$PROJECT_DIR$/template/tsconfig.tsbuildinfo" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +212,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/template" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -301,7 +298,8 @@
       <workItem from="1625139740962" duration="711000" />
       <workItem from="1625427833899" duration="1591000" />
       <workItem from="1625429509832" duration="1877000" />
-      <workItem from="1625431432772" duration="43000" />
+      <workItem from="1625431432772" duration="101000" />
+      <workItem from="1625431571309" duration="779000" />
     </task>
     <servers />
   </component>
@@ -388,9 +386,9 @@
     </state>
     <state x="456" y="242" width="670" height="676" key="search.everywhere.popup/-1680.25.1680.1025/0.25.1920.986@0.25.1920.986" timestamp="1622003357390" />
     <state x="399" y="235" width="670" height="656" key="search.everywhere.popup/0.25.1680.956@0.25.1680.956" timestamp="1623649456227" />
-    <state x="400" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1625429062293">
+    <state x="400" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1625431947733">
       <screen x="0" y="25" width="1680" height="956" />
     </state>
-    <state x="400" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1680.956@0.25.1680.956" timestamp="1625429062293" />
+    <state x="400" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1680.956@0.25.1680.956" timestamp="1625431947733" />
   </component>
 </project>
