@@ -2,209 +2,197 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bc612ef-8777-4343-85ce-fe0d2d9ae6c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RNTypeScriptGraphqlBoilerplate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/file-walkthrough.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.buckconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.cache/tsbuild/tsconfig.tsbuildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.flowconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.husky/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/.watchmanconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/__mocks__/@react-native-community/async-storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/__tests__/App-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/_BUCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/build_defs.bzl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/debug.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/debug/java/com/rntypescriptgraphqlboilerplate/ReactNativeFlipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/AntDesign.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Entypo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/EvilIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Feather.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/FontAwesome.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Fontisto.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Foundation.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/MaterialIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Octicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Zocial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/java/com/rntypescriptgraphqlboilerplate/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/java/com/rntypescriptgraphqlboilerplate/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/drawable/bootsplash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-hdpi/bootsplash_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-mdpi/bootsplash_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xhdpi/bootsplash_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxhdpi/bootsplash_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxxhdpi/bootsplash_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/declarations.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/ios/File.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/Podfile.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/xcshareddata/xcschemes/RNTypeScriptGraphqlBoilerplate.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/BootSplash.storyboard" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/bootsplash_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/bootsplash_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/bootsplash_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplateTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplateTests/RNTypeScriptGraphqlBoilerplateTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/jest.setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/lint-staged.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/metro.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/react-native.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/font/NotoSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/font/NotoSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/font/NotoSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/font/NotoSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/icon/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/image/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/image/source/logoBear/bitmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/image/source/logoBear/bitmap@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/image/source/logoBear/bitmap@3x.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/src/assets/image/structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/locales/es/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/locales/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/locales/ko/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/locales/vi/string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/assets/svg/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/common/date/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/common/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/common/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/common/redux/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/common/scale/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/common/string/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/common/style/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/config/appConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/config/reactotronConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/containers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/containers/launches/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/containers/launches/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/containers/login/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/containers/productDetails/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/containers/productDetails/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/containers/register/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/client.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/data/possibleTypes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/mutations/createCustomerToken.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/mutations/createNewCustomer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/getCategoryProducts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/getProductDetailsById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/isLoggedIn.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/productFragment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/productPriceFragment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/productsFragment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/components/GenericTemplate/GenericTemplate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/components/MyToast/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/logic/app/useForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/logic/auth/useLogin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/logic/auth/useRegister.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/logic/product/useCategoryProducts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/utils/device/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/utils/i18n/i18n.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/utils/i18n/translate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/utils/money/money.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/lib/utils/storage/storage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/models/generalTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/models/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/navigation/RootNavigator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/navigation/authentication/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/navigation/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template/src/navigation/navigationService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/template/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.buckconfig" beforeDir="false" afterPath="$PROJECT_DIR$/template/.buckconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/tsbuild/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/template/.cache/tsbuild/tsconfig.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/template/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flowconfig" beforeDir="false" afterPath="$PROJECT_DIR$/template/.flowconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/template/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/template/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.husky/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/navigation/screenTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/navigation/unAuthentication/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/screens/authentication/lauchScreen/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/screens/authentication/productDetailsScreen/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/screens/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/screens/unAuthentication/loginScreen/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/screens/unAuthentication/registerScreen/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/scripts/generatePossibleTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/store/allReducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/store/app_reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/themes/color.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/themes/dark.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/themes/emotion.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/themes/fontSize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/themes/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/themes/light.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/themes/spacing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/tsconfig.tsbuildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/.prettierrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.watchmanconfig" beforeDir="false" afterPath="$PROJECT_DIR$/template/.watchmanconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__mocks__/@react-native-community/async-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/__mocks__/@react-native-community/async-storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/App-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/__tests__/App-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/_BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/_BUCK" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build_defs.bzl" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/build_defs.bzl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/debug.keystore" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/debug.keystore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/debug/java/com/rntypescriptgraphqlboilerplate/ReactNativeFlipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/debug/java/com/rntypescriptgraphqlboilerplate/ReactNativeFlipper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/AntDesign.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/AntDesign.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Entypo.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/EvilIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Feather.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/FontAwesome.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Fontisto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Fontisto.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Foundation.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Ionicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/MaterialIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Octicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/assets/fonts/Zocial.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/rntypescriptgraphqlboilerplate/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/java/com/rntypescriptgraphqlboilerplate/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/rntypescriptgraphqlboilerplate/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/java/com/rntypescriptgraphqlboilerplate/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/bootsplash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/drawable/bootsplash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/bootsplash_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-hdpi/bootsplash_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/bootsplash_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-mdpi/bootsplash_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/bootsplash_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xhdpi/bootsplash_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/bootsplash_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxhdpi/bootsplash_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/bootsplash_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxxhdpi/bootsplash_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/template/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/declarations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/declarations.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env.example" beforeDir="false" afterPath="$PROJECT_DIR$/template/env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/xcshareddata/xcschemes/RNTypeScriptGraphqlBoilerplate.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcodeproj/xcshareddata/xcschemes/RNTypeScriptGraphqlBoilerplate.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/AppDelegate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/BootSplash.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/BootSplash.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/bootsplash_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/bootsplash_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/bootsplash_logo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/bootsplash_logo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/bootsplash_logo@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/BootSplashLogo.imageset/bootsplash_logo@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Images.xcassets/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplate/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplate/main.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplateTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplateTests/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/RNTypeScriptGraphqlBoilerplateTests/RNTypeScriptGraphqlBoilerplateTests.m" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/RNTypeScriptGraphqlBoilerplateTests/RNTypeScriptGraphqlBoilerplateTests.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/jest.setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lint-staged.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/lint-staged.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/metro.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-native.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/react-native.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/NotoSans-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/font/NotoSans-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/NotoSans-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/font/NotoSans-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/NotoSans-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/font/NotoSans-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/NotoSans-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/font/NotoSans-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/Roboto-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/Roboto-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/Roboto-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/Roboto-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/Roboto-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/font/Roboto-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icon/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/icon/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/image/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/source/logoBear/bitmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/image/source/logoBear/bitmap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/source/logoBear/bitmap@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/image/source/logoBear/bitmap@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/source/logoBear/bitmap@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/image/source/logoBear/bitmap@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/structure.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/structure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/locales/es/string.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/locales/es/string.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/locales/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/locales/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/locales/ko/string.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/locales/ko/string.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/locales/vi/string.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/locales/vi/string.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svg/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/assets/svg/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/date/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/common/date/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/common/hooks/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/common/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/redux/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/common/redux/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/scale/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/common/scale/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/string/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/common/string/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/style/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/common/style/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/appConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/config/appConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/reactotronConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/config/reactotronConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/containers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/launches/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/containers/launches/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/launches/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/containers/launches/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/containers/login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/productDetails/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/containers/productDetails/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/productDetails/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/containers/productDetails/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/containers/register/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/data/possibleTypes.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/data/possibleTypes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/mutations/createCustomerToken.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/mutations/createCustomerToken.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/mutations/createNewCustomer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/mutations/createNewCustomer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/queries/getCategoryProducts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/getCategoryProducts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/queries/getProductDetailsById.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/getProductDetailsById.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/queries/isLoggedIn.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/isLoggedIn.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/queries/productFragment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/productFragment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/queries/productPriceFragment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/productPriceFragment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/apollo/queries/productsFragment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/apollo/queries/productsFragment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/GenericTemplate/GenericTemplate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/components/GenericTemplate/GenericTemplate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/MyToast/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/components/MyToast/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/logic/app/useForm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/logic/app/useForm.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/logic/auth/useLogin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/logic/auth/useLogin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/logic/auth/useRegister.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/logic/auth/useRegister.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/logic/product/useCategoryProducts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/logic/product/useCategoryProducts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils/device/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/utils/device/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils/i18n/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/utils/i18n/i18n.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils/i18n/translate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/utils/i18n/translate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/utils/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils/money/money.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/utils/money/money.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils/storage/storage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/lib/utils/storage/storage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/generalTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/models/generalTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/models/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/RootNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/navigation/RootNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/authentication/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/navigation/authentication/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/navigation/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/navigationService.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/screenTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/navigation/screenTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/unAuthentication/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/navigation/unAuthentication/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/authentication/lauchScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/screens/authentication/lauchScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/authentication/productDetailsScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/screens/authentication/productDetailsScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/screens/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/unAuthentication/loginScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/screens/unAuthentication/loginScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/unAuthentication/registerScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/screens/unAuthentication/registerScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/generatePossibleTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/scripts/generatePossibleTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/allReducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/store/allReducers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/app_reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/store/app_reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/color.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/color.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/dark.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/dark.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/emotion.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/emotion.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/fontSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/fontSize.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/light.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/light.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/themes/spacing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/themes/spacing.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/template/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/template/tsconfig.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/template/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +301,7 @@
       <workItem from="1625136034261" duration="346000" />
       <workItem from="1625139740962" duration="711000" />
       <workItem from="1625427833899" duration="1591000" />
-      <workItem from="1625429509832" duration="897000" />
+      <workItem from="1625429509832" duration="1741000" />
     </task>
     <servers />
   </component>

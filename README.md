@@ -20,18 +20,22 @@
 
 <img src="docs/assets/structure.png" alt="React Native TypeScript Graphql Boilerplate" width="250"/>
 
-## Usage
+## Getting Started
 
-1. Clone repository
+1. Create a new project using the template.
 
-```
-  git clone https://github.com/thiendangit/react-native-typeScript-graphql-boilerplate.git
+- **Note:** the command will fail if you have the global legacy react-native-cli installed. Make sure you uninstall it first. More info at [react-native-community/cli](https://github.com/react-native-community/cli#about).
+
+## Usage RN 0.64.1
+
+```bash
+  npx react-native init MyApp --template @hmarques98/react-native-template-typescript
 ```
 
 2. Cd into directory
 
 ```
-  cd react-native-typeScript-graphql-boilerplate/
+  cd MyApp/
 ```
 
 3. Create .env
