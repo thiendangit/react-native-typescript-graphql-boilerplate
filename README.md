@@ -22,48 +22,46 @@
 
 ## Getting Started
 
-1. Create a new project using the template.
+### Usage RN 0.64.1
 
-- **Note:** the command will fail if you have the global legacy react-native-cli installed. Make sure you uninstall it first. More info at [react-native-community/cli](https://github.com/react-native-community/cli#about).
-
-## Usage RN 0.64.1
+- Create a new project using the template.
 
 ```bash
   npx react-native init MyApp --template @thiendangit1102/rn-typescript-graphql
 ```
 
-2. Cd into directory
+- Cd into directory
 
 ```
   cd MyApp/
 ```
 
-3. Create .env
+- Create .env
 
 ```
   cp .env.example .env
 ```
 
-4. Add to .env
+- Add to .env
 
 ```
   API_URL=<YourGraphqlApiUrl>
   DEV_SERVER_IP=<YourDevGraphqlApiUrl>
 ```
 
-5. Install dependencies using npm
+- Install dependencies using npm
 
 ```
   npm i or yarn install
 ```
 
-6. Pod install
+- Pod install
 
 ```
   npm run pod
 ```
 
-7. run device
+- run device
 
 ```
   npm run ios or yarn ios
