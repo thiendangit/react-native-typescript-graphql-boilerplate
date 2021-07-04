@@ -1,0 +1,89 @@
+{
+  "error": {
+    "0": "Quá thời gian yêu cầu",
+    "400": "Lỗi trong quá trình gửi dữ liệu lên máy chủ",
+    "401": "Tài khoản chưa được xác thực",
+    "402": "Bạn đã gửi quá nhiều yêu cầu đến máy chủ",
+    "403": "Bạn không có quyền truy cập chức năng này",
+    "404": "Không tìm thấy máy chủ",
+    "405": "Request không đúng",
+    "406": "Máy chủ không thể đáp ứng yêu cầu",
+    "407": "Bạn chưa xác thực proxy",
+    "408": "It take too much time for the server to process",
+    "409": "Dữ liệu gửi lên không thống nhất",
+    "410": "Dữ liệu không tồn tại trên máy chủ",
+    "411": "Không thể xác định độ dài dữ liệu gửi lên",
+    "412": "Một số dữ liệu truyền lên không đúng",
+    "413": "Dữ liệu yêu cầu quá lớn, máy chủ không thể đáp ứng",
+    "414": "Đường dẫn máy chủ quá lớn",
+    "415": "Dữ liệu gửi lên không đúng định dạng",
+    "416": "Một số dữ liệu truyền lên không thể đáp ứng bởi máy chủ",
+    "417": "Máy chủ không đáp ứng yêu cầu chờ",
+    "500": "Máy chủ không hoạt động",
+    "501": "Máy chủ không thể xử lý yêu cầu",
+    "502": "Máy chủ không đáp ứng yêu cầu chờ",
+    "503": "Máy chủ quá tải hoặc đang bảo trì",
+    "504": "Máy chủ không kết nối được để lấy dữ liệu",
+    "505": "Máy chủ không hỗ trợ giao thức HTTP",
+    "haveError": "An error occurred. Please try again later!",
+    "errorOnRequest": "Một lỗi xảy ra khi gửi yêu cầu",
+    "errorOnHandle": "Một lỗi xảy ra khi xử lý dữ liệu",
+    "serverError": "Lỗi máy chủ",
+    "errorNetwork": "Lỗi kết nối! Vui lòng kiểm tra lại kết nối.",
+    "errorGetPermission": "Lỗi trong quá trình kiểm tra quyền ứng dụng"
+  },
+  "dialog": {
+    "error": "Error",
+    "cancel": "Cancel",
+    "warning": "Warning",
+    "info": "Info",
+    "success": "Success",
+    "login_success": "Login Success",
+    "loading": "Loading",
+    "darkModeReview": "Use the switch above to switch to dark mode. Default value comes from OS settings."
+  },
+  "common": {
+    "signIn": "Sign In",
+    "login": "Login",
+    "signUp": "Sign up",
+    "register": "Register",
+    "user_id": "User id"
+  },
+  "question": {
+    "yes": "Yes",
+    "no": "No",
+    "are_you_sure": "Are you sure ?"
+  },
+  "empty_list": {
+    "empty_list": "Empty list",
+    "empty_product": "The product list is empty"
+  },
+  "month": {
+    "january": "Jan",
+    "february": "Feb",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "Sep",
+    "october": "Oct",
+    "november": "Nov",
+    "december": "Dec"
+  },
+  "dayOfWeek": {
+    "mon": "Mo",
+    "tue": "Tu",
+    "wed": "We",
+    "thurs": "Th",
+    "fri": "Fr",
+    "sat": "Sa",
+    "sun": "Su"
+  },
+  "money": {
+    "thousand": "K",
+    "million": "M",
+    "billion": "B"
+  }
+}
