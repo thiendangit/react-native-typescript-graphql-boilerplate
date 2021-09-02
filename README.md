@@ -18,9 +18,9 @@
 
 ## Structure
 <div>
-<img src="docs/assets/structure.png" alt="React Native TypeScript Graphql Boilerplate" width="220"/>
-<img src="docs/assets/login.png" alt="React Native TypeScript Graphql Boilerplate" width="220"/>
-<img src="docs/assets/productList.png" alt="React Native TypeScript Graphql Boilerplate" width="220"/>
+<img src="docs/assets/structure.png" alt="React Native TypeScript Graphql Boilerplate" width="240" height="485"/>
+<img src="docs/assets/login.png" alt="React Native TypeScript Graphql Boilerplate" width="240" height="485"/>
+<img src="docs/assets/productList.png" alt="React Native TypeScript Graphql Boilerplate" width="240" height="485"/>
 </div>
 
 ## Getting Started
