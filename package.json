@@ -1,0 +1,49 @@
+{
+  "name": "@thiendangit1102/rn-typescript-graphql",
+  "version": "0.1.4",
+  "description": "React Native TypeScript Apollo Graphql Boilerplate",
+  "scripts": {
+    "publish": ""
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiendangit/react-native-typeScript-graphql-boilerplate"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "graphql-client",
+    "template",
+    "boilerplate",
+    "starter",
+    "typescript",
+    "absolute",
+    "imports",
+    "navigation",
+    "async",
+    "storage",
+    "components",
+    "bundle",
+    "husky",
+    "git",
+    "hooks",
+    "startup",
+    "fast-image"
+  ],
+  "author": "thiendangit",
+  "license": "MIT",
+  "homepage": "https://github.com/thiendangit/react-native-typeScript-graphql-boilerplate",
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}"
+    },
+    "github": {
+      "release": true
+    }
+  }
+}
