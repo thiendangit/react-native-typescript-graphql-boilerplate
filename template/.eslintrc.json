@@ -1,9 +1,7 @@
 {
   "root": true,
   "extends": [
-    //    "@react-native-community",
-        "prettier"
-    //    "standard"
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "plugins": [
