@@ -1,20 +1,19 @@
 import React from 'react';
 import {APP_SCREEN, RootStackParamList} from '@navigation/screenTypes';
 import {
-  createStackNavigator,
-  StackNavigationOptions,
-} from '@react-navigation/stack';
+  createNativeStackNavigator,
+  NativeStackNavigationOptions,
+} from '@react-navigation/native-stack';
 import {LoginScreen} from '@screens/unAuthentication/loginScreen';
 import {ColorsCustom} from '@themes/color';
 import {View} from 'native-base';
 import {RegisterScreen} from '@screens/unAuthentication/registerScreen';
 
-const Stack = createStackNavigator<RootStackParamList>();
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const UnAuthenticationTab: React.FC = () => {
-  const options: StackNavigationOptions = {
+  const options: NativeStackNavigationOptions = {
     headerShown: false,
-    cardOverlayEnabled: true,
   };
 
   return (

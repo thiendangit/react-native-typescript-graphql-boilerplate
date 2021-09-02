@@ -37,7 +37,7 @@ export const styles = (theme?: Theme) => {
     },
     footerContainer: {
       alignItems: 'center',
-      marginVertical: SpacingDefault.small,
+      height: scale(60),
     },
   });
 };

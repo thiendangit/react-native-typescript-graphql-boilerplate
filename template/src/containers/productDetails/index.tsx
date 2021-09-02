@@ -57,14 +57,13 @@ const ProductDetailsComponent: React.FC<ProductDetailsContainerProps> = (
   return (
     <SafeAreaView
       style={[
-        styles(theme).container,
-        {backgroundColor: ColorsCustom.very_light_red},
+        styles(theme).container
       ]}>
       <GenericTemplate>
         <View
           style={{
             flex: 1,
-            backgroundColor: ColorsCustom.very_light_red,
+            backgroundColor: ColorsCustom.light_blue,
           }}>
           <View
             style={{
@@ -79,8 +78,7 @@ const ProductDetailsComponent: React.FC<ProductDetailsContainerProps> = (
           </View>
           <BottomSheet
             ref={sheetRef}
-            snapPoints={[500, 250, 0]}
-            borderRadius={10}
+            snapPoints={[deviceHeight/1.8, deviceHeight/3, 0]}
             enabledGestureInteraction={true}
             initialSnap={1}
             renderHeader={() => (

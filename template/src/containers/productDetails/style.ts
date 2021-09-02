@@ -12,6 +12,7 @@ export const styles = (theme?: Theme) => {
     backButtonContainer: {
       ...StyleSheet.absoluteFillObject,
       left: scale(10),
+      top: scale(10),
     },
     header: {
       backgroundColor: 'white',

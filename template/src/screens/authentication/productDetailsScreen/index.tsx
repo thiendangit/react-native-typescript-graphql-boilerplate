@@ -1,10 +1,10 @@
 import React, {memo} from 'react';
 import isEqual from 'react-fast-compare';
 import {ProductDetails} from '@containers/productDetails';
-import {StackScreenProps} from '@react-navigation/stack';
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {APP_SCREEN, RootStackParamList} from '@navigation/screenTypes';
 
-export type ProductDetailsProps = StackScreenProps<
+export type ProductDetailsProps = NativeStackScreenProps<
   RootStackParamList,
   APP_SCREEN.PRODUCT_DETAILS
 >

@@ -2,8 +2,8 @@ import isEqual from 'react-fast-compare';
 import {useSelector as useReduxSelector} from 'react-redux';
 import {RootState} from '@store/allReducers';
 import {DeviceEventEmitter} from 'react-native';
-import {EmitCode} from '@components/MyToast';
 import {useEffect, useRef, useState} from 'react';
+import {EmitCode} from '@components/MyToast/MyToast';
 
 function useSelector<T>(
   selector: (state: RootState) => T,

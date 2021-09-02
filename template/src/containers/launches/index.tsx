@@ -3,8 +3,6 @@ import isEqual from 'react-fast-compare';
 import {useTranslation} from 'react-i18next';
 import {
   Alert,
-  FlatList,
-  RefreshControl,
   SafeAreaView,
   View,
 } from 'react-native';
@@ -22,6 +20,7 @@ import {NetworkStatus} from '@apollo/client';
 import {NavigationService} from '@navigation/navigationService';
 import {APP_SCREEN} from '@navigation/screenTypes';
 import {ProductInListType} from '@lib/apollo/queries/productsFragment';
+import {ListView} from "@lib/components";
 
 const LaunchesScreen: React.FC = () => {
   const {t} = useTranslation();
@@ -41,7 +40,8 @@ const LaunchesScreen: React.FC = () => {
     Alert.alert('Logout', t('question:are_you_sure'), [
       {
         text: 'Cancel',
-        onPress: () => {},
+        onPress: () => {
+        },
         style: 'destructive',
       },
       {
@@ -64,9 +64,9 @@ const LaunchesScreen: React.FC = () => {
     return (
       (networkStatus === NetworkStatus.fetchMore && isLoadMore && (
         <View style={styles().footerContainer}>
-          <Spinner />
+          <Spinner/>
         </View>
-      )) || <></>
+      )) || <View style={styles().footerContainer}/>
     );
   };
 
@@ -111,17 +111,12 @@ const LaunchesScreen: React.FC = () => {
         style={{alignItems: 'center'}}
         loading={loading && !refreshing && !isLoadMore}>
         <Text style={styles().header}>RN Graphql Boilerplate</Text>
-        <FlatList
+        <ListView
           data={data?.products?.items}
           keyExtractor={(item, index) => index.toString()}
-          refreshControl={
-            <RefreshControl
-              refreshing={refreshing}
-              onRefresh={() => {
-                refresh();
-              }}
-            />
-          }
+          canRefresh={true}
+          refreshing={refreshing}
+          onRefreshing={refresh}
           renderItem={renderItem}
           onEndReachedThreshold={0.1}
           onEndReached={() => {
@@ -134,6 +129,7 @@ const LaunchesScreen: React.FC = () => {
             position: 'absolute',
             right: scale(10),
             height: scale(30),
+            top : scale(5),
             alignItems: 'center',
             width: scale(40),
             borderRadius: scale(10),

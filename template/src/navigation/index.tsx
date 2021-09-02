@@ -7,7 +7,7 @@ import {RootNavigation} from '@navigation/RootNavigator';
 import {NavigationContainer} from '@react-navigation/native';
 import light from '@themes/light';
 import dark from '@themes/dark';
-import MyToast from '@components/MyToast';
+import MyToast from '@components/MyToast/MyToast';
 
 const AppNavigation: React.FC = () => {
   const {

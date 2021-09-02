@@ -2,9 +2,9 @@ import React, {memo} from 'react';
 import isEqual from 'react-fast-compare';
 import {Login} from '@containers/login';
 import {APP_SCREEN, RootStackParamList} from '@navigation/screenTypes';
-import {StackScreenProps} from '@react-navigation/stack';
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
 
-type LoginScreenProps = StackScreenProps<RootStackParamList, APP_SCREEN.LOGIN>
+type LoginScreenProps = NativeStackScreenProps<RootStackParamList, APP_SCREEN.LOGIN>
 
 const LoginComponent: React.FC<LoginScreenProps> = ({}: LoginScreenProps) => {
   return <Login />;
