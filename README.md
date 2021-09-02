@@ -22,7 +22,7 @@
 
 ## Getting Started
 
-### Usage RN 0.64.1
+### Usage RN 0.65.1
 
 - Create a new project using the template.
 
@@ -68,6 +68,3 @@
   OR
   npm run android or yarn android
 ```
-
- ✖ eslint --fix [FAILED]
- - quick commit : git commit -m "updating"  --no-verify
