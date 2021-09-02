@@ -23,8 +23,6 @@ template/*.xcuserstate
 template/Pods/
 
 # Android/IntelliJ
-#
-template/build/
 template/.idea
 template/.gradle
 template/local.properties
