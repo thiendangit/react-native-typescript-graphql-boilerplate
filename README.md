@@ -4,7 +4,7 @@
   <img src="https://www.clipartmax.com/png/full/1-13184_teddy-clipart-tiger-cat-card-svg-cutting-file-free.png" alt="React Native TypeScript Graphql Boilerplate" width="300"/>
 </div>
 
-> ### Some libraries use in this boilerplate
+> ### 📘 Some libraries use in this boilerplate
 
 <div style="display: flex; flex-direction: row; align-self: center; align-items: center">
   <img src="https://reactnative.dev/img/header_logo.svg" width="140" title="hover text">
@@ -16,16 +16,16 @@
   <img src="https://raw.githubusercontent.com/mpeyper/react-hooks-testing-library/master/public/ram.png" width="120" title="hover text">
 </div>
 
-## Structure
+## 👷‍♂️ Structure
 <div style="display: flex; flex-direction: row; align-self: center; justify-content: center">
 <img src="docs/assets/structure.png" alt="React Native TypeScript Graphql Boilerplate" width="280" height="580"/>
 <img src="docs/assets/login.png" alt="React Native TypeScript Graphql Boilerplate" width="260" height="580"/>
 <img src="docs/assets/productList.png" alt="React Native TypeScript Graphql Boilerplate" width="260" height="580"/>
 </div>
 
-## Getting Started
+## 🚀 Getting Started
 
-### Usage React-Native 0.65.1 & React-Navigation 6
+### 🆒 Usage React-Native 0.65.1 & React-Navigation 6
 
 - Create a new project using the template.
 
@@ -71,3 +71,11 @@
   OR
   npm run android or yarn android
 ```
+## ⚠️ React Native CLI
+
+This template only works with the new CLI. Make sure you have uninstalled the legacy `react-native-cli` first (`npm uninstall -g react-native-cli`) for the below command to work. If you wish to not use `npx`, you can also install the new CLI globally (`npm i -g @react-native-community/cli` or `yarn global add @react-native-community/cli`).
+
+If you tried the above and still get the react-native-template-react- native-template-typescript: Not found error, please try adding the `--ignore-existing` flag to [force npx to ignore](https://github.com/npm/npx#description) any locally installed versions of the CLI and use the latest.
+
+Further information can be found here: https://github.com/react-native-community/cli#about
+
