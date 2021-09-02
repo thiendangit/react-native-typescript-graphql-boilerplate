@@ -18,9 +18,9 @@
 
 ## 👷‍♂️ Structure
 <div style="display: flex; flex-direction: row; align-self: center; justify-content: center">
-<img src="docs/assets/structure.png" alt="React Native TypeScript Graphql Boilerplate" width="280" height="580"/>
-<img src="docs/assets/login.png" alt="React Native TypeScript Graphql Boilerplate" width="260" height="580"/>
-<img src="docs/assets/productList.png" alt="React Native TypeScript Graphql Boilerplate" width="260" height="580"/>
+<img src="docs/assets/structure.png" alt="React Native TypeScript Graphql Boilerplate" width="250" height="580"/>
+<img src="docs/assets/login.png" alt="React Native TypeScript Graphql Boilerplate" width="250" height="580"/>
+<img src="docs/assets/productList.png" alt="React Native TypeScript Graphql Boilerplate" width="250" height="580"/>
 </div>
 
 ## 🚀 Getting Started
