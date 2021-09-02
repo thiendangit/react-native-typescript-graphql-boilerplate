@@ -6,7 +6,7 @@
 
 > ### Some libraries use in this boilerplate
 
-<div align="center">
+<div style="display: flex; flex-direction: row">
   <img src="https://reactnative.dev/img/header_logo.svg" width="140" title="hover text">
   <img src="https://uploads.getpop.org/wp-content/uploads/2019/07/graphql.png" width="155" title="hover text">
   <img src="https://reactnavigation.org/img/spiro.svg" width="140" title="hover text">
@@ -17,10 +17,11 @@
 </div>
 
 ## Structure
-
+<div>
 <img src="docs/assets/structure.png" alt="React Native TypeScript Graphql Boilerplate" width="220"/>
 <img src="docs/assets/login.png" alt="React Native TypeScript Graphql Boilerplate" width="220"/>
 <img src="docs/assets/productList.png" alt="React Native TypeScript Graphql Boilerplate" width="220"/>
+</div>
 
 ## Getting Started
 
