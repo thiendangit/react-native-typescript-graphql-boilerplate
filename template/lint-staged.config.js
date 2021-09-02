@@ -1,9 +1,9 @@
 module.exports = {
     '*.{ts,tsx}': [
         () => 'tsc -p tsconfig.json --noEmit --skipLibCheck',
-        'prettier --write',
-        'eslint --fix',
-        "git add",
+        'npm run test',
+        'npm run lint-fix',
+        'npm run prettier',
     ],
     '*.{js,jsx}': ['prettier --write', 'eslint --fix'],
 };

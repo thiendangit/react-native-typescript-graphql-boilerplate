@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
-import {STYLES} from '@common/style';
+import {STYLES} from '@common';
 import {Theme} from '@react-navigation/native';
-import {scale} from '@common/scale';
+import {scale} from '@common';
 
 export const styles = (theme?: Theme) => {
   return StyleSheet.create({

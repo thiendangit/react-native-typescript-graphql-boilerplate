@@ -1,5 +1,5 @@
 package com.rntypescriptgraphqlboilerplate;
-
+import com.dylanvann.fastimage.FastImageViewPackage;
 import android.os.Bundle;
 
 import com.facebook.react.ReactActivity;

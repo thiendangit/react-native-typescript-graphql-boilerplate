@@ -2,7 +2,7 @@ import React, {memo} from 'react';
 import isEqual from 'react-fast-compare';
 import {APP_SCREEN, RootStackParamList} from '@navigation/screenTypes';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
-import {Register} from '@containers/register';
+import {Register} from '@containers';
 
 type RegisterScreenProps = NativeStackScreenProps<
   RootStackParamList,

@@ -22,7 +22,7 @@
 
 ## Getting Started
 
-### Usage RN 0.65.1
+### Usage React-Native 0.65.1 & React-Navigation 6
 
 - Create a new project using the template.
 

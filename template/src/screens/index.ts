@@ -1,6 +1,6 @@
-import {LaunchesScreen} from './authentication/lauchScreen';
-import {LoginScreen} from './unAuthentication/loginScreen';
-import {RegisterScreen} from './unAuthentication/registerScreen';
-import {ProductDetailsScreen} from './authentication/productDetailsScreen';
+import {LaunchesScreen} from './authentication/ProductList';
+import {LoginScreen} from './unAuthentication/LoginScreen';
+import {RegisterScreen} from './unAuthentication/RegisterScreen';
+import {ProductDetailsScreen} from './authentication/ProductDetailsScreen';
 
 export {LaunchesScreen, LoginScreen, RegisterScreen, ProductDetailsScreen};

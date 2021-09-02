@@ -1,14 +1,18 @@
 {
   "env": {
     "production": {
-      "plugins": ["transform-remove-console"]
+      "plugins": [
+        "transform-remove-console"
+      ]
     }
   },
   "plugins": [
     [
       "module-resolver",
       {
-        "root": ["."],
+        "root": [
+          "."
+        ],
         "alias": {
           "@utils": "./src/lib/utils",
           "@screens": "./src/screens",

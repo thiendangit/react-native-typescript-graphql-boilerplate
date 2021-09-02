@@ -45,5 +45,8 @@
     "github": {
       "release": true
     }
+  },
+  "dependencies": {
+    "react-native-fast-image": "^8.3.7"
   }
 }

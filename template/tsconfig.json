@@ -48,16 +48,16 @@
     /* Base directory to resolve non-absolute module names. */ "paths": {
       /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
       "@screens/*": ["./src/screens/*"],
-      "@common/*": ["./src/common/*"],
+      "@common": ["./src/common/index"],
       "@store/*": ["./src/store/*"],
-      "@components/*": ["./src/lib/components/*"],
+      "@components": ["./src/lib/components/index"],
       "@navigation/*": ["./src/navigation/*"],
       "@lib/*": ["./src/lib/*"],
       "@utils/*": ["./src/lib/utils/*"],
       "@assets/*": ["./src/assets/*"],
       "@themes/*": ["./src/themes/*"],
-      "@containers/*": ["./src/containers/*"],
-      "@models/*": ["./src/models/*"]
+      "@containers": ["./src/containers/index"],
+      "@models/*": ["./src/models/*"],
     },
     // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
     // "typeRoots": [],                       /* List of folders to include type definitions from. */

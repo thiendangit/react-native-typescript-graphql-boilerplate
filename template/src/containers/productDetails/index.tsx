@@ -1,19 +1,18 @@
 import React, {memo, useEffect, useRef, useState} from 'react';
 import isEqual from 'react-fast-compare';
-import {SafeAreaView, View, Image} from 'react-native';
+import {SafeAreaView, View} from 'react-native';
 import {useTheme} from '@react-navigation/native';
-import GenericTemplate from '@lib/components/GenericTemplate/GenericTemplate';
-import {styles} from '@containers/productDetails/style';
+import {styles} from './style';
 import {graphql} from '@apollo/client/react/hoc';
 import {
   GET_PRODUCT_DETAILS_BY_ID,
   ProductDetailsDataType,
 } from '@lib/apollo/queries/getProductDetailsById';
-import {ProductDetailsProps} from '@screens/authentication/productDetailsScreen';
+import {ProductDetailsProps} from '@screens/authentication/ProductDetailsScreen';
 import {Result} from '@models/generalTypes';
 import {ColorsCustom} from '@themes/color';
 import {Icon, Spinner, Text} from 'native-base';
-import {scale} from '@common/scale';
+import {scale} from '@common';
 import {ProductInListType} from '@lib/apollo/queries/productFragment';
 import {NavigationService} from '@navigation/navigationService';
 import BottomSheet from 'reanimated-bottom-sheet';
@@ -21,6 +20,8 @@ import BottomSheetBehavior from 'reanimated-bottom-sheet';
 import {deviceHeight} from '@lib/utils';
 import {FontSizeDefault} from '@themes/fontSize';
 import {formatMoney} from '@utils/money/money';
+import {GenericTemplate, Image} from '@components';
+import {images} from "@assets/image";
 
 type ProductDetailsContainerProps =
   | (ProductDetailsProps & Result<ProductDetailsDataType>)
@@ -49,7 +50,7 @@ const ProductDetailsComponent: React.FC<ProductDetailsContainerProps> = (
           flex: 1,
           justifyContent: 'center',
         }}>
-        <Spinner />
+        <Spinner/>
       </View>
     );
   }
@@ -57,7 +58,7 @@ const ProductDetailsComponent: React.FC<ProductDetailsContainerProps> = (
   return (
     <SafeAreaView
       style={[
-        styles(theme).container
+        styles(theme).container,
       ]}>
       <GenericTemplate>
         <View
@@ -72,19 +73,20 @@ const ProductDetailsComponent: React.FC<ProductDetailsContainerProps> = (
             }}>
             <Image
               source={{uri: product?.image?.url}}
+              defaultSource={images.noImage}
               resizeMode={'contain'}
               style={{height: scale(200), width: scale(200)}}
             />
           </View>
           <BottomSheet
             ref={sheetRef}
-            snapPoints={[deviceHeight/1.8, deviceHeight/3, 0]}
+            snapPoints={[deviceHeight / 1.8, deviceHeight / 3, 0]}
             enabledGestureInteraction={true}
             initialSnap={1}
             renderHeader={() => (
               <View style={styles().header}>
                 <View style={styles().panelHeader}>
-                  <View style={styles().panelHandle} />
+                  <View style={styles().panelHandle}/>
                 </View>
               </View>
             )}

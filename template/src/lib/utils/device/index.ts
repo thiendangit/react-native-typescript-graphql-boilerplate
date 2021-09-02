@@ -2,7 +2,7 @@
  * Helper class to fixing iPhoneX UI
  */
 import {Dimensions, Platform} from 'react-native';
-import {scale} from '@common/scale';
+import {scale} from '@common';
 
 export const isIphoneX = () => {
   const dimension = Dimensions.get('window');

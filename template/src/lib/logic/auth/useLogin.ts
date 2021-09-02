@@ -1,5 +1,5 @@
 import {ApolloError, useMutation} from '@apollo/client';
-import {dispatch} from '@common/redux';
+import {dispatch} from '@common';
 import {
   CREATE_CUSTOMER_TOKEN,
   CreateCustomerTokenDataType,

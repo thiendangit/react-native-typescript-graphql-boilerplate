@@ -1,6 +1,6 @@
 import React, {memo} from 'react';
 import isEqual from 'react-fast-compare';
-import {ProductDetails} from '@containers/productDetails';
+import {ProductDetails} from '@containers';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {APP_SCREEN, RootStackParamList} from '@navigation/screenTypes';
 

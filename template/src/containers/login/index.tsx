@@ -9,13 +9,13 @@ import {
   StatusBar,
 } from 'react-native';
 import {images} from '@assets/image';
-import {scale} from '@common/scale';
+import {scale} from '@common';
 import {useLogin} from '@lib/logic/auth/useLogin';
 import {Button, Container, Form, Input, Item, Text, View} from 'native-base';
 import {Switch} from 'react-native-gesture-handler';
 import {actionsApp} from '@store/app_reducer';
-import {useSelector, useToast} from '@common/hooks';
-import {dispatch} from '@common/redux';
+import {useSelector, useToast} from '@common';
+import {dispatch} from '@common';
 import {useTheme} from '@react-navigation/native';
 import {NavigationService} from '@navigation/navigationService';
 import {APP_SCREEN} from '@navigation/screenTypes';

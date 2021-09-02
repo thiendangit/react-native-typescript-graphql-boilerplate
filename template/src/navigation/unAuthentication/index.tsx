@@ -4,10 +4,10 @@ import {
   createNativeStackNavigator,
   NativeStackNavigationOptions,
 } from '@react-navigation/native-stack';
-import {LoginScreen} from '@screens/unAuthentication/loginScreen';
+import {LoginScreen} from '@screens/unAuthentication/LoginScreen';
 import {ColorsCustom} from '@themes/color';
 import {View} from 'native-base';
-import {RegisterScreen} from '@screens/unAuthentication/registerScreen';
+import {RegisterScreen} from '@screens/unAuthentication/RegisterScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 

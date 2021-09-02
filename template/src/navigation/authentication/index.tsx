@@ -5,12 +5,12 @@ import {
   createNativeStackNavigator,
   NativeStackNavigationOptions,
 } from '@react-navigation/native-stack';
-import {LaunchesScreen} from '@screens/authentication/lauchScreen';
+import {ProductListScreen} from '@screens/authentication/ProductList';
 import {ColorsCustom} from '@themes/color';
 import {View} from 'native-base';
-import {ProductDetailsScreen} from '@screens/authentication/productDetailsScreen';
+import {ProductDetailsScreen} from '@screens/authentication/ProductDetailsScreen';
 import {StatusBar} from 'react-native';
-import {useSelector} from '@common/hooks';
+import {useSelector} from '@common';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -30,7 +30,7 @@ const AuthenticationTab: React.FC = () => {
         screenOptions={{headerShown: false, gestureEnabled: true}}>
         <Stack.Screen
           name={APP_SCREEN.SPLASH}
-          component={LaunchesScreen}
+          component={ProductListScreen}
           options={options}
         />
         <Stack.Screen

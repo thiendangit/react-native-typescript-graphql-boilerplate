@@ -6,23 +6,23 @@ import {
   SafeAreaView,
   View,
 } from 'react-native';
-import {dispatch} from '@common/redux';
-import {scale} from '@common/scale';
+import {dispatch} from '@common';
+import {scale} from '@common';
 import {actionsApp} from '@store/app_reducer';
-import {Button, Icon, Spinner, Text, Thumbnail} from 'native-base';
+import {Button, Icon, Spinner, Text} from 'native-base';
 import {useCategoryProducts} from '@lib/logic/product/useCategoryProducts';
 import {removeCustomerToken} from '@lib/utils';
 import {formatMoney} from '@utils/money/money';
 import {useTheme} from '@react-navigation/native';
-import GenericTemplate from '@lib/components/GenericTemplate/GenericTemplate';
-import {styles} from '@containers/launches/style';
+import {styles} from './style';
 import {NetworkStatus} from '@apollo/client';
 import {NavigationService} from '@navigation/navigationService';
 import {APP_SCREEN} from '@navigation/screenTypes';
 import {ProductInListType} from '@lib/apollo/queries/productsFragment';
-import {ListView} from "@lib/components";
+import {ListView, GenericTemplate, Image} from "@components";
+import {images} from "@assets/image";
 
-const LaunchesScreen: React.FC = () => {
+const ProductListComponent: React.FC = () => {
   const {t} = useTranslation();
   const theme = useTheme();
 
@@ -75,11 +75,15 @@ const LaunchesScreen: React.FC = () => {
       <Button
         style={styles(theme).itemContainer}
         onPress={() => goToProductDetails(item)}>
-        <Thumbnail
+        <Image
           source={{uri: item.image.url}}
+          defaultSource={images.noImage}
           style={{
             marginLeft: scale(10),
             marginTop: scale(5),
+            height: scale(45),
+            width: scale(45),
+            borderRadius: scale(10),
           }}
         />
         <View
@@ -129,7 +133,7 @@ const LaunchesScreen: React.FC = () => {
             position: 'absolute',
             right: scale(10),
             height: scale(30),
-            top : scale(5),
+            top: scale(5),
             alignItems: 'center',
             width: scale(40),
             borderRadius: scale(10),
@@ -148,4 +152,4 @@ const LaunchesScreen: React.FC = () => {
   );
 };
 
-export const Launches = memo(LaunchesScreen, isEqual);
+export const ProductList = memo(ProductListComponent, isEqual);

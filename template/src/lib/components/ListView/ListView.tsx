@@ -2,7 +2,7 @@ import {View} from 'native-base';
 import React, {forwardRef, PropsWithoutRef} from 'react';
 import {FlatList, RefreshControl, StyleSheet} from 'react-native';
 import {ListViewProps} from './ListView.props';
-import {scale} from "@common/scale";
+import {scale} from "@common";
 
 const ListView: React.ForwardRefExoticComponent<PropsWithoutRef<ListViewProps> & React.RefAttributes<FlatList>> =
   forwardRef((props, ref) => {

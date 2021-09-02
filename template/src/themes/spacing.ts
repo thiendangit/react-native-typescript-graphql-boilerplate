@@ -1,13 +1,14 @@
+import {scale} from '@common';
 import {Spacing} from '@models/generalTypes';
 
 export const SpacingDefault: Spacing = {
-  none: 0,
-  tiny: 4,
-  smaller: 8,
-  small: 12,
-  medium: 16,
-  mediumPlush: 24,
-  large: 32,
-  huge: 48,
-  massive: 64,
+  none: scale(0),
+  tiny: scale(4),
+  smaller: scale(8),
+  small: scale(12),
+  medium: scale(16),
+  mediumPlush: scale(24),
+  large: scale(32),
+  huge: scale(48),
+  massive: scale(64),
 };

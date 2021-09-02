@@ -1,9 +1,9 @@
 import isEqual from 'react-fast-compare';
 import {useSelector as useReduxSelector} from 'react-redux';
 import {RootState} from '@store/allReducers';
-import {DeviceEventEmitter} from 'react-native';
+import {DeviceEventEmitter, StyleSheet} from 'react-native';
 import {useEffect, useRef, useState} from 'react';
-import {EmitCode} from '@components/MyToast/MyToast';
+import {EmitCode} from '@lib/components/MyToast/MyToast';
 
 function useSelector<T>(
   selector: (state: RootState) => T,
@@ -12,6 +12,10 @@ function useSelector<T>(
   const state = useReduxSelector<RootState, RootState>((x) => x, equalityFn);
   return selector(state);
 }
+
+export const enhance = <T>(arrStyle: Array<T>) => {
+  return StyleSheet.flatten<T>(arrStyle);
+};
 
 const useToast = () => {
   return (msg?: string, duration?: number) =>

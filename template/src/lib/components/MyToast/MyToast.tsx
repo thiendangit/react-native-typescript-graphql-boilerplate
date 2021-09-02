@@ -10,9 +10,9 @@ import {
 import {RootState} from '@store/allReducers';
 import {actionsApp} from '@store/app_reducer';
 import {deviceHeight} from '@lib/utils';
-import {useSelector} from '@common/hooks';
-import {dispatch} from '@common/redux';
-import {scale} from '@common/scale';
+import {useSelector} from '@common';
+import {dispatch} from '@common';
+import {scale} from '@common';
 
 export const EmitCode = {
   Toast: 'toast',
