@@ -1,9 +1,9 @@
 {
   "name": "@thiendangit1102/rn-typescript-graphql",
-  "version": "0.1.6",
+  "version": "0.1.9",
   "description": "React Native TypeScript Apollo Graphql Boilerplate",
   "scripts": {
-    "publish": ""
+    "publish": "npm publish --access=public"
   },
   "files": [
     "template",
